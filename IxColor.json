@@ -1,0 +1,818 @@
+{
+  "ixBG": {
+    "bgPrimary": {
+      "Enabled": {
+        "value": "{BTN.Primary}",
+        "type": "color"
+      },
+      "Hovered": {
+        "value": "{BTN.PrimaryHovered}",
+        "type": "color"
+      },
+      "Pressed": {
+        "value": "{BTN.PrimaryPressed}",
+        "type": "color"
+      },
+      "Disabled": {
+        "value": "{BTN.Disabled}",
+        "type": "color"
+      }
+    },
+    "bgSecondary": {
+      "Enabled": {
+        "value": "{BTN.Secondary}",
+        "type": "color"
+      },
+      "Hovered": {
+        "value": "{BTN.SecondaryHovered}",
+        "type": "color"
+      },
+      "Pressed": {
+        "value": "{BTN.SecondaryPressed}",
+        "type": "color"
+      },
+      "Disabled": {
+        "value": "{BTN.Disabled}",
+        "type": "color"
+      }
+    },
+    "bgSecondarySubtle": {
+      "Enabled": {
+        "value": "{BTN.SecondarySubtle}",
+        "type": "color"
+      },
+      "Hovered": {
+        "value": "{BTN.SecondarySubtleHovered}",
+        "type": "color"
+      },
+      "Pressed": {
+        "value": "{BTN.SecondarySubtlePressed}",
+        "type": "color"
+      },
+      "Disabled": {
+        "value": "{BTN.Disabled}",
+        "type": "color"
+      }
+    },
+    "bgTertiary": {
+      "Enabled": {
+        "value": "{BTN.Tertiary}",
+        "type": "color"
+      },
+      "Hovered": {
+        "value": "{BTN.TertiaryHovered}",
+        "type": "color"
+      },
+      "Pressed": {
+        "value": "{BTN.TertiaryPressed}",
+        "type": "color"
+      },
+      "Disabled": {
+        "value": "{BTN.Disabled}",
+        "type": "color"
+      }
+    },
+    "bgWarning": {
+      "Enabled": {
+        "value": "{BTN.Warning}",
+        "type": "color"
+      },
+      "Hovered": {
+        "value": "{BTN.WarningHovered}",
+        "type": "color"
+      },
+      "Pressed": {
+        "value": "{BTN.WarningPressed}",
+        "type": "color"
+      },
+      "Disabled": {
+        "value": "{BTN.Disabled}",
+        "type": "color"
+      }
+    },
+    "bgOutlinedWarning": {
+      "Enabled": {
+        "value": "{BTN.LinedWarning}",
+        "type": "color"
+      },
+      "Hovered": {
+        "value": "{BTN.LinedWarningHovered}",
+        "type": "color"
+      },
+      "Pressed": {
+        "value": "{BTN.LinedWarningPressed}",
+        "type": "color"
+      },
+      "Disabled": {
+        "value": "{BTN.LinedWarning}",
+        "type": "color"
+      }
+    },
+    "bgOntint": {
+      "Enabled": {
+        "value": "{BTN.OnTint}",
+        "type": "color"
+      },
+      "Hovered": {
+        "value": "{BTN.OnTintHovered}",
+        "type": "color"
+      },
+      "Pressed": {
+        "value": "{BTN.OnTintPressed}",
+        "type": "color"
+      },
+      "Disabled": {
+        "value": "{BTN.OnTintSubdued}",
+        "type": "color"
+      }
+    },
+    "bgPrimarySubtle": {
+      "Enabled": {
+        "value": "{BTN.PrimarySubtle}",
+        "type": "color"
+      },
+      "Hovered": {
+        "value": "{BTN.PrimarySubtleHovered}",
+        "type": "color"
+      },
+      "Pressed": {
+        "value": "{BTN.PrimarySubtlePressed}",
+        "type": "color"
+      },
+      "Disabled": {
+        "value": "{BTN.Disabled}",
+        "type": "color"
+      }
+    },
+    "bgClear": {
+      "Enabled": {
+        "value": "{BTN.Clear}",
+        "type": "color"
+      },
+      "Hovered": {
+        "value": "{BTN.Clear}",
+        "type": "color"
+      },
+      "Pressed": {
+        "value": "{BTN.Clear}",
+        "type": "color"
+      },
+      "Disabled": {
+        "value": "{BTN.Clear}",
+        "type": "color"
+      }
+    },
+    "bgOutlinedSecondary": {
+      "Enabled": {
+        "value": "{BTN.LinedSecondary}",
+        "type": "color"
+      },
+      "Hovered": {
+        "value": "{BTN.LinedSecondaryHovered}",
+        "type": "color"
+      },
+      "Pressed": {
+        "value": "{BTN.LinedSecondaryPressed}",
+        "type": "color"
+      },
+      "Disabled": {
+        "value": "{BTN.LinedSecondary}",
+        "type": "color"
+      }
+    },
+    "bgClickNormal": {
+      "Enabled": {
+        "value": "{BTN.Clear}",
+        "type": "color"
+      },
+      "Hovered": {
+        "value": "{BTN.ClearHovered}",
+        "type": "color"
+      },
+      "Pressed": {
+        "value": "{BTN.ClearPressed}",
+        "type": "color"
+      },
+      "Disabled": {
+        "value": "{BTN.Clear}",
+        "type": "color"
+      }
+    },
+    "bgPrimarySubdued": {
+      "Enabled": {
+        "value": "{BTN.PrimarySubdued}",
+        "type": "color"
+      },
+      "Hovered": {
+        "value": "{BTN.PrimarySubduedHovered}",
+        "type": "color"
+      },
+      "Pressed": {
+        "value": "{BTN.PrimarySubduedPressed}",
+        "type": "color"
+      },
+      "Disabled": {
+        "value": "{BTN.Disabled}",
+        "type": "color"
+      }
+    },
+    "bgOutlinedOntint": {
+      "Enabled": {
+        "value": "{BTN.LinedOnTint}",
+        "type": "color"
+      },
+      "Hovered": {
+        "value": "{BTN.LinedOnTintHovered}",
+        "type": "color"
+      },
+      "Pressed": {
+        "value": "{BTN.LinedOnTintPressed}",
+        "type": "color"
+      },
+      "Disabled": {
+        "value": "{BTN.LinedOnTint}",
+        "type": "color"
+      }
+    },
+    "bgInverse": {
+      "Enabled": {
+        "value": "{BTN.Inverse}",
+        "type": "color"
+      },
+      "Hovered": {
+        "value": "{BTN.InverseHovered}",
+        "type": "color"
+      },
+      "Pressed": {
+        "value": "{BTN.InversePressed}",
+        "type": "color"
+      },
+      "Disabled": {
+        "value": "{BTN.Disabled}",
+        "type": "color"
+      }
+    },
+    "bgOutlinedPrimary": {
+      "Enabled": {
+        "value": "{BTN.LinedPrimary}",
+        "type": "color"
+      },
+      "Hovered": {
+        "value": "{BTN.LinedPrimaryHovered}",
+        "type": "color"
+      },
+      "Pressed": {
+        "value": "{BTN.LinedPrimaryPressed}",
+        "type": "color"
+      },
+      "Disabled": {
+        "value": "{BTN.LinedPrimary}",
+        "type": "color"
+      }
+    },
+    "bgOntintSubdued": {
+      "Enabled": {
+        "value": "{BTN.OnTintSubdued}",
+        "type": "color"
+      },
+      "Hovered": {
+        "value": "{BTN.OnTintSubduedHovered}",
+        "type": "color"
+      },
+      "Pressed": {
+        "value": "{BTN.OnTintSubduedPressed}",
+        "type": "color"
+      },
+      "Disabled": {
+        "value": "{BTN.DisabledOntint}",
+        "type": "color"
+      }
+    },
+    "bgPrimaryDisabledAccent": {
+      "Enabled": {
+        "value": "{BTN.Primary}",
+        "type": "color"
+      },
+      "Hovered": {
+        "value": "{BTN.PrimaryHovered}",
+        "type": "color"
+      },
+      "Pressed": {
+        "value": "{BTN.PrimaryPressed}",
+        "type": "color"
+      },
+      "Disabled": {
+        "value": "{BTN.DisabledAccent}",
+        "type": "color"
+      }
+    },
+    "bgTertiaryDisabledAccent": {
+      "Enabled": {
+        "value": "{BTN.Tertiary}",
+        "type": "color"
+      },
+      "Hovered": {
+        "value": "{BTN.TertiaryHovered}",
+        "type": "color"
+      },
+      "Pressed": {
+        "value": "{BTN.TertiaryPressed}",
+        "type": "color"
+      },
+      "Disabled": {
+        "value": "{BTN.DisabledAccent}",
+        "type": "color"
+      }
+    },
+    "bgWarningDisabledAccent": {
+      "Enabled": {
+        "value": "{BTN.Warning}",
+        "type": "color"
+      },
+      "Hovered": {
+        "value": "{BTN.WarningHovered}",
+        "type": "color"
+      },
+      "Pressed": {
+        "value": "{BTN.WarningPressed}",
+        "type": "color"
+      },
+      "Disabled": {
+        "value": "{BTN.DisabledAccent}",
+        "type": "color"
+      }
+    },
+    "bgErrorDisabledAccent": {
+      "Enabled": {
+        "value": "{BTN.Error}",
+        "type": "color"
+      },
+      "Hovered": {
+        "value": "{BTN.ErrorHovered}",
+        "type": "color"
+      },
+      "Pressed": {
+        "value": "{BTN.ErrorPressed}",
+        "type": "color"
+      },
+      "Disabled": {
+        "value": "{BTN.DisabledAccent}",
+        "type": "color"
+      }
+    }
+  },
+  "ixFG": {
+    "fgOntint": {
+      "Enabled": {
+        "value": "{Text.OnTint}",
+        "type": "color"
+      },
+      "Hovered": {
+        "value": "{Text.OnTintHovered}",
+        "type": "color"
+      },
+      "Pressed": {
+        "value": "{Text.OnTintPressed}",
+        "type": "color"
+      },
+      "Disabled": {
+        "value": "{Text.Disabled}",
+        "type": "color"
+      }
+    },
+    "fgPrimary": {
+      "Enabled": {
+        "value": "{Text.Primary}",
+        "type": "color"
+      },
+      "Hovered": {
+        "value": "{Text.PrimaryHovered}",
+        "type": "color"
+      },
+      "Pressed": {
+        "value": "{Text.PrimaryPressed}",
+        "type": "color"
+      },
+      "Disabled": {
+        "value": "{Text.Disabled}",
+        "type": "color"
+      }
+    },
+    "fgInverse": {
+      "Enabled": {
+        "value": "{Text.Inverse}",
+        "type": "color"
+      },
+      "Hovered": {
+        "value": "{Text.InverseHovered}",
+        "type": "color"
+      },
+      "Pressed": {
+        "value": "{Text.InversePressed}",
+        "type": "color"
+      },
+      "Disabled": {
+        "value": "{Text.Disabled}",
+        "type": "color"
+      }
+    },
+    "fgWarning": {
+      "Enabled": {
+        "value": "{Text.Warning}",
+        "type": "color"
+      },
+      "Hovered": {
+        "value": "{Text.WarningHovered}",
+        "type": "color"
+      },
+      "Pressed": {
+        "value": "{Text.WarningPressed}",
+        "type": "color"
+      },
+      "Disabled": {
+        "value": "{Text.Disabled}",
+        "type": "color"
+      }
+    },
+    "fgAccentSubdued": {
+      "Enabled": {
+        "value": "{Text.AccentSubdued}",
+        "type": "color"
+      },
+      "Hovered": {
+        "value": "{Text.AccentSubduedHovered}",
+        "type": "color"
+      },
+      "Pressed": {
+        "value": "{Text.AccentSubduedPressed}",
+        "type": "color"
+      },
+      "Disabled": {
+        "value": "{Text.Disabled}",
+        "type": "color"
+      }
+    },
+    "fgSupport": {
+      "Enabled": {
+        "value": "{Text.Support}",
+        "type": "color"
+      },
+      "Hovered": {
+        "value": "{Text.SupportHovered}",
+        "type": "color"
+      },
+      "Pressed": {
+        "value": "{Text.SupportPressed}",
+        "type": "color"
+      },
+      "Disabled": {
+        "value": "{Text.Disabled}",
+        "type": "color"
+      }
+    },
+    "fgTertiary": {
+      "Enabled": {
+        "value": "{Text.Tertiary}",
+        "type": "color"
+      },
+      "Hovered": {
+        "value": "{Text.TertiaryHovered}",
+        "type": "color"
+      },
+      "Pressed": {
+        "value": "{Text.TertiaryPressed}",
+        "type": "color"
+      },
+      "Disabled": {
+        "value": "{Text.Disabled}",
+        "type": "color"
+      }
+    },
+    "fgSupportIcon": {
+      "Enabled": {
+        "value": "{Text.SupportIcon}",
+        "type": "color"
+      },
+      "Hovered": {
+        "value": "{Text.SupportIconHovered}",
+        "type": "color"
+      },
+      "Pressed": {
+        "value": "{Text.SupportIconPressed}",
+        "type": "color"
+      },
+      "Disabled": {
+        "value": "{Text.DisabledSubtle}",
+        "type": "color"
+      }
+    },
+    "fgAccent": {
+      "Enabled": {
+        "value": "{Text.Accent}",
+        "type": "color"
+      },
+      "Hovered": {
+        "value": "{Text.AccentHovered}",
+        "type": "color"
+      },
+      "Pressed": {
+        "value": "{Text.AccentPressed}",
+        "type": "color"
+      },
+      "Disabled": {
+        "value": "{Text.Disabled}",
+        "type": "color"
+      }
+    },
+    "fgAccentOntint": {
+      "Enabled": {
+        "value": "{Text.Accent}",
+        "type": "color"
+      },
+      "Hovered": {
+        "value": "{Text.AccentHovered}",
+        "type": "color"
+      },
+      "Pressed": {
+        "value": "{Text.AccentPressed}",
+        "type": "color"
+      },
+      "Disabled": {
+        "value": "{Text.DisabledAccent}",
+        "type": "color"
+      }
+    },
+    "fgPrimaryOntint": {
+      "Enabled": {
+        "value": "{Text.PrimaryOntint}",
+        "type": "color"
+      },
+      "Hovered": {
+        "value": "{Text.PrimaryOntintHovered}",
+        "type": "color"
+      },
+      "Pressed": {
+        "value": "{Text.PrimaryOntintPressed}",
+        "type": "color"
+      },
+      "Disabled": {
+        "value": "{Text.Disabled}",
+        "type": "color"
+      }
+    },
+    "fgOutlinedOntint": {
+      "Enabled": {
+        "value": "{Text.OnTint}",
+        "type": "color"
+      },
+      "Hovered": {
+        "value": "{Text.OnTintHovered}",
+        "type": "color"
+      },
+      "Pressed": {
+        "value": "{Text.OnTintPressed}",
+        "type": "color"
+      },
+      "Disabled": {
+        "value": "{Text.DisabledOntint}",
+        "type": "color"
+      }
+    },
+    "fgInverseDisabledInverse": {
+      "Enabled": {
+        "value": "{Text.Inverse}",
+        "type": "color"
+      },
+      "Hovered": {
+        "value": "{Text.InverseHovered}",
+        "type": "color"
+      },
+      "Pressed": {
+        "value": "{Text.InversePressed}",
+        "type": "color"
+      },
+      "Disabled": {
+        "value": "{Text.Inverse}",
+        "type": "color"
+      }
+    },
+    "fgClear": {
+      "Enabled": {
+        "value": "{BTN.Clear}",
+        "type": "color"
+      },
+      "Disabled": {
+        "value": "{BTN.Clear}",
+        "type": "color"
+      },
+      "Hovered": {
+        "value": "{BTN.Clear}",
+        "type": "color"
+      },
+      "Pressed": {
+        "value": "{BTN.Clear}",
+        "type": "color"
+      }
+    }
+  },
+  "ixBorder": {
+    "borderSecondary": {
+      "Enabled": {
+        "value": "{BTN.BorderSubtle}",
+        "type": "color"
+      },
+      "Hovered": {
+        "value": "{BTN.BorderSubtleHovered}",
+        "type": "color"
+      },
+      "Pressed": {
+        "value": "{BTN.BorderSubtlePressed}",
+        "type": "color"
+      },
+      "Disabled": {
+        "value": "{BTN.Disabled}",
+        "type": "color"
+      }
+    },
+    "borderWarning": {
+      "Enabled": {
+        "value": "{BTN.Warning}",
+        "type": "color"
+      },
+      "Hovered": {
+        "value": "{BTN.WarningHovered}",
+        "type": "color"
+      },
+      "Pressed": {
+        "value": "{BTN.WarningPressed}",
+        "type": "color"
+      },
+      "Disabled": {
+        "value": "{BTN.Disabled}",
+        "type": "color"
+      }
+    },
+    "borderOntintSubdued": {
+      "Enabled": {
+        "value": "{BTN.OnTintSubdued}",
+        "type": "color"
+      },
+      "Hovered": {
+        "value": "{BTN.OnTintSubduedHovered}",
+        "type": "color"
+      },
+      "Pressed": {
+        "value": "{BTN.OnTintSubduedPressed}",
+        "type": "color"
+      },
+      "Disabled": {
+        "value": "{BTN.DisabledOntint}",
+        "type": "color"
+      }
+    },
+    "borderClear": {
+      "Enabled": {
+        "value": "{BTN.Clear}",
+        "type": "color"
+      },
+      "Hovered": {
+        "value": "{BTN.Clear}",
+        "type": "color"
+      },
+      "Pressed": {
+        "value": "{BTN.Clear}",
+        "type": "color"
+      },
+      "Disabled": {
+        "value": "{BTN.Clear}",
+        "type": "color"
+      }
+    },
+    "borderBorder": {
+      "Enabled": {
+        "value": "{BTN.Border}",
+        "type": "color"
+      },
+      "Hovered": {
+        "value": "{BTN.BorderHovered}",
+        "type": "color"
+      },
+      "Pressed": {
+        "value": "{BTN.BorderPressed}",
+        "type": "color"
+      },
+      "Disabled": {
+        "value": "{BTN.Disabled}",
+        "type": "color"
+      }
+    },
+    "borderError": {
+      "Enabled": {
+        "value": "{BTN.Error}",
+        "type": "color"
+      },
+      "Hovered": {
+        "value": "{BTN.ErrorHovered}",
+        "type": "color"
+      },
+      "Pressed": {
+        "value": "{BTN.ErrorPressed}",
+        "type": "color"
+      },
+      "Disabled": {
+        "value": "{BTN.Disabled}",
+        "type": "color"
+      }
+    },
+    "borderPrimary": {
+      "Enabled": {
+        "value": "{BTN.Primary}",
+        "type": "color"
+      },
+      "Hovered": {
+        "value": "{BTN.PrimaryHovered}",
+        "type": "color"
+      },
+      "Pressed": {
+        "value": "{BTN.PrimaryPressed}",
+        "type": "color"
+      },
+      "Disabled": {
+        "value": "{BTN.Disabled}",
+        "type": "color"
+      }
+    },
+    "borderBorderSubdued": {
+      "Enabled": {
+        "value": "{BTN.BorderSubdued}",
+        "type": "color"
+      },
+      "Hovered": {
+        "value": "{BTN.BorderSubduedHovered}",
+        "type": "color"
+      },
+      "Pressed": {
+        "value": "{BTN.BorderSubduedPressed}",
+        "type": "color"
+      },
+      "Disabled": {
+        "value": "{BTN.Disabled}",
+        "type": "color"
+      }
+    },
+    "borderErrorDisabledAccent": {
+      "Enabled": {
+        "value": "{BTN.Error}",
+        "type": "color"
+      },
+      "Hovered": {
+        "value": "{BTN.ErrorHovered}",
+        "type": "color"
+      },
+      "Pressed": {
+        "value": "{BTN.ErrorPressed}",
+        "type": "color"
+      },
+      "Disabled": {
+        "value": "{BTN.DisabledAccent}",
+        "type": "color"
+      }
+    },
+    "borderTertiaryDisabledAccent": {
+      "Enabled": {
+        "value": "{BTN.Tertiary}",
+        "type": "color"
+      },
+      "Hovered": {
+        "value": "{BTN.TertiaryHovered}",
+        "type": "color"
+      },
+      "Pressed": {
+        "value": "{BTN.TertiaryPressed}",
+        "type": "color"
+      },
+      "Disabled": {
+        "value": "{BTN.DisabledAccent}",
+        "type": "color"
+      }
+    },
+    "borderPrimaryDisabledAccent": {
+      "Enabled": {
+        "value": "{BTN.Primary}",
+        "type": "color"
+      },
+      "Hovered": {
+        "value": "{BTN.PrimaryHovered}",
+        "type": "color"
+      },
+      "Pressed": {
+        "value": "{BTN.PrimaryPressed}",
+        "type": "color"
+      },
+      "Disabled": {
+        "value": "{BTN.DisabledAccent}",
+        "type": "color"
+      }
+    }
+  }
+}

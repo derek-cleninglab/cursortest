@@ -1,0 +1,782 @@
+{
+  "Body": {
+    "B1_R": {
+      "value": {
+        "fontFamily": "Pretendard",
+        "fontWeight": "400",
+        "lineHeight": "140%",
+        "fontSize": "17"
+      },
+      "type": "typography",
+      "description": "ㅂㄷ ㅂ1 ㅇ"
+    },
+    "B1_SB": {
+      "value": {
+        "fontFamily": "Pretendard",
+        "fontWeight": "600",
+        "lineHeight": "140%",
+        "fontSize": "17"
+      },
+      "type": "typography",
+      "description": "ㅂㄷ ㅂ1 ㅇㅅㅂ"
+    },
+    "B1_B": {
+      "value": {
+        "fontFamily": "Pretendard",
+        "fontWeight": "700",
+        "lineHeight": "140%",
+        "fontSize": "17"
+      },
+      "type": "typography",
+      "description": "ㅂㄷ ㅂ1 ㅂ"
+    },
+    "B2_R": {
+      "value": {
+        "fontFamily": "Pretendard",
+        "fontWeight": "400",
+        "lineHeight": "140%",
+        "fontSize": "16"
+      },
+      "type": "typography",
+      "description": "ㅂㄷ ㅂ2 ㅇ"
+    },
+    "B2_SB": {
+      "value": {
+        "fontFamily": "Pretendard",
+        "fontWeight": "600",
+        "lineHeight": "140%",
+        "fontSize": "16"
+      },
+      "type": "typography",
+      "description": "ㅂㄷ ㅂ2 ㅇㅅㅂ"
+    },
+    "B2_B": {
+      "value": {
+        "fontFamily": "Pretendard",
+        "fontWeight": "700",
+        "lineHeight": "140%",
+        "fontSize": "16"
+      },
+      "type": "typography",
+      "description": "ㅂㄷ ㅂ2 ㅂ"
+    },
+    "B3_R": {
+      "value": {
+        "fontFamily": "Pretendard",
+        "fontWeight": "400",
+        "lineHeight": "140%",
+        "fontSize": "15"
+      },
+      "type": "typography",
+      "description": "ㅂㄷ ㅂ3 ㅇ"
+    },
+    "B3_SB": {
+      "value": {
+        "fontFamily": "Pretendard",
+        "fontWeight": "600",
+        "lineHeight": "140%",
+        "fontSize": "15"
+      },
+      "type": "typography",
+      "description": "ㅂㄷ ㅂ3 ㅇㅅㅂ"
+    },
+    "B3_B": {
+      "value": {
+        "fontFamily": "Pretendard",
+        "fontWeight": "700",
+        "lineHeight": "140%",
+        "fontSize": "15"
+      },
+      "type": "typography",
+      "description": "ㅂㄷ ㅂ3 ㅂ"
+    },
+    "B4_R": {
+      "value": {
+        "fontFamily": "Pretendard",
+        "fontWeight": "400",
+        "lineHeight": "140%",
+        "fontSize": "14"
+      },
+      "type": "typography",
+      "description": "ㅂㄷ ㅂ4 ㅇ"
+    },
+    "B4_SB": {
+      "value": {
+        "fontFamily": "Pretendard",
+        "fontWeight": "600",
+        "lineHeight": "140%",
+        "fontSize": "14"
+      },
+      "type": "typography",
+      "description": "ㅂㄷ ㅂ4 ㅇㅅㅂ"
+    },
+    "B4_B": {
+      "value": {
+        "fontFamily": "Pretendard",
+        "fontWeight": "700",
+        "lineHeight": "140%",
+        "fontSize": "14"
+      },
+      "type": "typography",
+      "description": "ㅂㄷ ㅂ4 ㅂ"
+    },
+    "B1_R_A11Y": {
+      "value": {
+        "fontFamily": "Pretendard",
+        "fontWeight": "400",
+        "lineHeight": "140%",
+        "fontSize": "17"
+      },
+      "type": "typography",
+      "description": "ㅂㄷ ㅂ1 ㅇ ㅇㅅㅅ"
+    },
+    "B1_SB_A11Y": {
+      "value": {
+        "fontFamily": "Pretendard",
+        "fontWeight": "600",
+        "lineHeight": "140%",
+        "fontSize": "17"
+      },
+      "type": "typography",
+      "description": "ㅂㄷ ㅂ1 ㅇㅅㅂ ㅇㅅㅅ"
+    },
+    "B1_B_A11Y": {
+      "value": {
+        "fontFamily": "Pretendard",
+        "fontWeight": "700",
+        "lineHeight": "140%",
+        "fontSize": "17"
+      },
+      "type": "typography",
+      "description": "ㅂㄷ ㅂ1 ㅂ ㅇㅅㅅ"
+    },
+    "B2_R_A11Y": {
+      "value": {
+        "fontFamily": "Pretendard",
+        "fontWeight": "400",
+        "lineHeight": "140%",
+        "fontSize": "16"
+      },
+      "type": "typography",
+      "description": "ㅂㄷ ㅂ2 ㅇ ㅇㅅㅅ"
+    },
+    "B2_SB_A11Y": {
+      "value": {
+        "fontFamily": "Pretendard",
+        "fontWeight": "600",
+        "lineHeight": "140%",
+        "fontSize": "16"
+      },
+      "type": "typography",
+      "description": "ㅂㄷ ㅂ2 ㅇㅅㅂ ㅇㅅㅅ"
+    },
+    "B2_B_A11Y": {
+      "value": {
+        "fontFamily": "Pretendard",
+        "fontWeight": "700",
+        "lineHeight": "140%",
+        "fontSize": "16"
+      },
+      "type": "typography",
+      "description": "ㅂㄷ ㅂ2 ㅂ ㅇㅅㅅ"
+    },
+    "B3_R_A11Y": {
+      "value": {
+        "fontFamily": "Pretendard",
+        "fontWeight": "400",
+        "lineHeight": "140%",
+        "fontSize": "15"
+      },
+      "type": "typography",
+      "description": "ㅂㄷ ㅂ3 ㅇ ㅇㅅㅅ"
+    },
+    "B3_SB_A11Y": {
+      "value": {
+        "fontFamily": "Pretendard",
+        "fontWeight": "600",
+        "lineHeight": "140%",
+        "fontSize": "15"
+      },
+      "type": "typography",
+      "description": "ㅂㄷ ㅂ3 ㅇㅅㅂ ㅇㅅㅅ"
+    },
+    "B3_B_A11Y": {
+      "value": {
+        "fontFamily": "Pretendard",
+        "fontWeight": "700",
+        "lineHeight": "140%",
+        "fontSize": "15"
+      },
+      "type": "typography",
+      "description": "ㅂㄷ ㅂ3 ㅂ ㅇㅅㅅ"
+    },
+    "B4_R_A11Y": {
+      "value": {
+        "fontFamily": "Pretendard",
+        "fontWeight": "400",
+        "lineHeight": "140%",
+        "fontSize": "14"
+      },
+      "type": "typography",
+      "description": "ㅂㄷ ㅂ4 ㅇ ㅇㅅㅅ"
+    },
+    "B4_SB_A11Y": {
+      "value": {
+        "fontFamily": "Pretendard",
+        "fontWeight": "600",
+        "lineHeight": "140%",
+        "fontSize": "14"
+      },
+      "type": "typography",
+      "description": "ㅂㄷ ㅂ4 ㅇㅅㅂ ㅇㅅㅅ"
+    },
+    "B4_B_A11Y": {
+      "value": {
+        "fontFamily": "Pretendard",
+        "fontWeight": "700",
+        "lineHeight": "140%",
+        "fontSize": "14"
+      },
+      "type": "typography",
+      "description": "ㅂㄷ ㅂ4 ㅂ ㅇㅅㅅ"
+    }
+  },
+  "Title": {
+    "T1_R": {
+      "value": {
+        "fontFamily": "Pretendard",
+        "fontWeight": "400",
+        "lineHeight": "140%",
+        "fontSize": "21"
+      },
+      "type": "typography",
+      "description": "ㅌㅇㅌ ㅌ1 ㅇ"
+    },
+    "T1_SB": {
+      "value": {
+        "fontFamily": "Pretendard",
+        "fontWeight": "600",
+        "lineHeight": "140%",
+        "fontSize": "21"
+      },
+      "type": "typography",
+      "description": "ㅌㅇㅌ ㅌ1 ㅇㅅㅂ"
+    },
+    "T1_B": {
+      "value": {
+        "fontFamily": "Pretendard",
+        "fontWeight": "700",
+        "lineHeight": "140%",
+        "fontSize": "21"
+      },
+      "type": "typography",
+      "description": "ㅌㅇㅌ ㅌ1 ㅂ"
+    },
+    "T2_R": {
+      "value": {
+        "fontFamily": "Pretendard",
+        "fontWeight": "400",
+        "lineHeight": "140%",
+        "fontSize": "19"
+      },
+      "type": "typography",
+      "description": "ㅌㅇㅌ ㅌ2 ㅇ"
+    },
+    "T2_SB": {
+      "value": {
+        "fontFamily": "Pretendard",
+        "fontWeight": "600",
+        "lineHeight": "140%",
+        "fontSize": "19"
+      },
+      "type": "typography",
+      "description": "ㅌㅇㅌ ㅌ2 ㅇㅅㅂ"
+    },
+    "T2_B": {
+      "value": {
+        "fontFamily": "Pretendard",
+        "fontWeight": "700",
+        "lineHeight": "140%",
+        "fontSize": "19"
+      },
+      "type": "typography",
+      "description": "ㅌㅇㅌ ㅌ2 ㅂ"
+    },
+    "T3_R": {
+      "value": {
+        "fontFamily": "Pretendard",
+        "fontWeight": "400",
+        "lineHeight": "140%",
+        "fontSize": "17"
+      },
+      "type": "typography",
+      "description": "ㅌㅇㅌ ㅌ3 ㅇ"
+    },
+    "T3_SB": {
+      "value": {
+        "fontFamily": "Pretendard",
+        "fontWeight": "600",
+        "lineHeight": "140%",
+        "fontSize": "17"
+      },
+      "type": "typography",
+      "description": "ㅌㅇㅌ ㅌ3 ㅇㅅㅂ"
+    },
+    "T3_B": {
+      "value": {
+        "fontFamily": "Pretendard",
+        "fontWeight": "700",
+        "lineHeight": "140%",
+        "fontSize": "17"
+      },
+      "type": "typography",
+      "description": "ㅌㅇㅌ ㅌ3 ㅂ"
+    }
+  },
+  "Heading": {
+    "HD1_B": {
+      "value": {
+        "fontFamily": "Pretendard",
+        "fontWeight": "700",
+        "lineHeight": "140%",
+        "fontSize": "33"
+      },
+      "type": "typography",
+      "description": "ㅎㄷ ㅎㄷ1 ㅂ\n\n매니저 정산내역 금액 타이틀로 표시 중"
+    },
+    "HD2_B": {
+      "value": {
+        "fontFamily": "Pretendard",
+        "fontWeight": "700",
+        "lineHeight": "140%",
+        "fontSize": "30"
+      },
+      "type": "typography",
+      "description": "ㅎㄷ ㅎㄷ2 ㅂ\n1. 매니저 인증번호 입력 폼"
+    },
+    "HD3_B": {
+      "value": {
+        "fontFamily": "Pretendard",
+        "fontWeight": "700",
+        "lineHeight": "140%",
+        "fontSize": "27"
+      },
+      "type": "typography",
+      "description": "ㅎㄷ ㅎㄷ3 ㅂ"
+    },
+    "HD4_SB": {
+      "value": {
+        "fontFamily": "Pretendard",
+        "fontWeight": "600",
+        "lineHeight": "140%",
+        "fontSize": "25"
+      },
+      "type": "typography",
+      "description": "ㅎㄷ ㅎㄷ4 ㅇㅅㅂ\n1. 네비바(툴바) 아래 라지타이틀\n2. 매니저 업무카드 상세에서 요일표시\n3. 고객카드에서 날짜표시\n4. 스토어 가격"
+    },
+    "HD4_B": {
+      "value": {
+        "fontFamily": "Pretendard",
+        "fontWeight": "700",
+        "lineHeight": "140%",
+        "fontSize": "25"
+      },
+      "type": "typography",
+      "description": "ㅎㄷ ㅎㄷ4 ㅂ"
+    },
+    "HD5_B": {
+      "value": {
+        "fontFamily": "Pretendard",
+        "fontWeight": "700",
+        "lineHeight": "140%",
+        "fontSize": "23"
+      },
+      "type": "typography",
+      "description": "ㅎㄷ ㅎㄷ5 ㅂ\n서브타이틀로 쓰이는 너낌\n\n1. 고객 > 예약 > 날짜 선택 시\n2. 매니저 > 업무카드 수락 시 뜨는 팝업 제목\n3. 모달 알럿창 제목\n4. 매니저 > 업무카드 내 날짜(요일) 시간"
+    }
+  },
+  "Display": {
+    "DP_R": {
+      "value": {
+        "fontFamily": "Pretendard",
+        "fontWeight": "400",
+        "lineHeight": "140%",
+        "fontSize": "42"
+      },
+      "type": "typography",
+      "description": "ㄷㅅㅍㄹㅇ ㄷㅍ ㅇ\n1. 포인트 타이틀"
+    },
+    "DP_B": {
+      "value": {
+        "fontFamily": "Pretendard",
+        "fontWeight": "700",
+        "lineHeight": "140%",
+        "fontSize": "42"
+      },
+      "type": "typography",
+      "description": "ㄷㅅㅍㄹㅇ ㄷㅍ ㅂ\n1. 평수 입력 시\n2. 포인트 타이틀"
+    }
+  },
+  "Label": {
+    "Label1_R": {
+      "value": {
+        "fontFamily": "Pretendard",
+        "fontWeight": "400",
+        "lineHeight": "140%",
+        "fontSize": "17"
+      },
+      "type": "typography",
+      "description": "ㄹㅇㅂ ㄹㅇㅂ1 ㅇ"
+    },
+    "Label1_SB": {
+      "value": {
+        "fontFamily": "Pretendard",
+        "fontWeight": "600",
+        "lineHeight": "140%",
+        "fontSize": "17"
+      },
+      "type": "typography",
+      "description": "ㄹㅇㅂ ㄹㅇㅂ1 ㅇㅅㅂ"
+    },
+    "Label1_B": {
+      "value": {
+        "fontFamily": "Pretendard",
+        "fontWeight": "700",
+        "lineHeight": "140%",
+        "fontSize": "17"
+      },
+      "type": "typography",
+      "description": "ㄹㅇㅂ ㄹㅇㅂ1 ㅂ"
+    },
+    "Label2_R": {
+      "value": {
+        "fontFamily": "Pretendard",
+        "fontWeight": "400",
+        "lineHeight": "140%",
+        "fontSize": "16"
+      },
+      "type": "typography",
+      "description": "ㄹㅇㅂ ㄹㅇㅂ2 ㅇ"
+    },
+    "Label2_SB": {
+      "value": {
+        "fontFamily": "Pretendard",
+        "fontWeight": "600",
+        "lineHeight": "140%",
+        "fontSize": "16"
+      },
+      "type": "typography",
+      "description": "ㄹㅇㅂ ㄹㅇㅂ2 ㅇㅅㅂ"
+    },
+    "Label2_B": {
+      "value": {
+        "fontFamily": "Pretendard",
+        "fontWeight": "700",
+        "lineHeight": "140%",
+        "fontSize": "16"
+      },
+      "type": "typography",
+      "description": "ㄹㅇㅂ ㄹㅇㅂ2 ㅂ"
+    },
+    "Label3_R": {
+      "value": {
+        "fontFamily": "Pretendard",
+        "fontWeight": "400",
+        "lineHeight": "140%",
+        "fontSize": "15"
+      },
+      "type": "typography",
+      "description": "ㄹㅇㅂ ㄹㅇㅂ3 ㅇ"
+    },
+    "Label3_SB": {
+      "value": {
+        "fontFamily": "Pretendard",
+        "fontWeight": "600",
+        "lineHeight": "140%",
+        "fontSize": "15"
+      },
+      "type": "typography",
+      "description": "ㄹㅇㅂ ㄹㅇㅂ3 ㅇㅅㅂ"
+    },
+    "Label3_B": {
+      "value": {
+        "fontFamily": "Pretendard",
+        "fontWeight": "700",
+        "lineHeight": "140%",
+        "fontSize": "15"
+      },
+      "type": "typography",
+      "description": "ㄹㅇㅂ ㄹㅇㅂ3 ㅂ"
+    },
+    "Label4_R": {
+      "value": {
+        "fontFamily": "Pretendard",
+        "fontWeight": "400",
+        "lineHeight": "140%",
+        "fontSize": "14"
+      },
+      "type": "typography",
+      "description": "ㄹㅇㅂ ㄹㅇㅂ4 ㅇ"
+    },
+    "Label4_SB": {
+      "value": {
+        "fontFamily": "Pretendard",
+        "fontWeight": "600",
+        "lineHeight": "140%",
+        "fontSize": "14"
+      },
+      "type": "typography",
+      "description": "ㄹㅇㅂ ㄹㅇㅂ4 ㅇㅅㅂ"
+    },
+    "Label4_B": {
+      "value": {
+        "fontFamily": "Pretendard",
+        "fontWeight": "700",
+        "lineHeight": "140%",
+        "fontSize": "14"
+      },
+      "type": "typography",
+      "description": "ㄹㅇㅂ ㄹㅇㅂ4 ㅂ"
+    },
+    "Label5_R": {
+      "value": {
+        "fontFamily": "Pretendard",
+        "fontWeight": "400",
+        "lineHeight": "140%",
+        "fontSize": "12"
+      },
+      "type": "typography",
+      "description": "ㄹㅇㅂ ㄹㅇㅂ5 ㅇ"
+    },
+    "Label5_SB": {
+      "value": {
+        "fontFamily": "Pretendard",
+        "fontWeight": "600",
+        "lineHeight": "140%",
+        "fontSize": "12"
+      },
+      "type": "typography",
+      "description": "ㄹㅇㅂ ㄹㅇㅂ5 ㅇㅅㅂ"
+    },
+    "Label5_B": {
+      "value": {
+        "fontFamily": "Pretendard",
+        "fontWeight": "700",
+        "lineHeight": "140%",
+        "fontSize": "12"
+      },
+      "type": "typography",
+      "description": "ㄹㅇㅂ ㄹㅇㅂ5 ㅂ"
+    },
+    "Label6_R": {
+      "value": {
+        "fontFamily": "Pretendard",
+        "fontWeight": "400",
+        "lineHeight": "140%",
+        "fontSize": "10"
+      },
+      "type": "typography",
+      "description": "ㄹㅇㅂ ㄹㅇㅂ6 ㅇ"
+    },
+    "Label6_SB": {
+      "value": {
+        "fontFamily": "Pretendard",
+        "fontWeight": "600",
+        "lineHeight": "140%",
+        "fontSize": "10"
+      },
+      "type": "typography",
+      "description": "ㄹㅇㅂ ㄹㅇㅂ6 ㅇㅅㅂ"
+    },
+    "Label6_B": {
+      "value": {
+        "fontFamily": "Pretendard",
+        "fontWeight": "700",
+        "lineHeight": "140%",
+        "fontSize": "10"
+      },
+      "type": "typography",
+      "description": "ㄹㅇㅂ ㄹㅇㅂ6 ㅂ"
+    },
+    "Label1_R_A11Y": {
+      "value": {
+        "fontFamily": "Pretendard",
+        "fontWeight": "400",
+        "lineHeight": "140%",
+        "fontSize": "17"
+      },
+      "type": "typography",
+      "description": "ㄹㅇㅂ ㄹㅇㅂ1 ㅇ ㅇㅅㅅ"
+    },
+    "Label1_SB_A11Y": {
+      "value": {
+        "fontFamily": "Pretendard",
+        "fontWeight": "600",
+        "lineHeight": "140%",
+        "fontSize": "17"
+      },
+      "type": "typography",
+      "description": "ㄹㅇㅂ ㄹㅇㅂ1 ㅇㅅㅂ ㅇㅅㅅ"
+    },
+    "Label1_B_A11Y": {
+      "value": {
+        "fontFamily": "Pretendard",
+        "fontWeight": "700",
+        "lineHeight": "140%",
+        "fontSize": "17"
+      },
+      "type": "typography",
+      "description": "ㄹㅇㅂ ㄹㅇㅂ1 ㅂ ㅇㅅㅅ"
+    },
+    "Label2_R_A11Y": {
+      "value": {
+        "fontFamily": "Pretendard",
+        "fontWeight": "400",
+        "lineHeight": "140%",
+        "fontSize": "16"
+      },
+      "type": "typography",
+      "description": "ㄹㅇㅂ ㄹㅇㅂ2 ㅇ ㅇㅅㅅ"
+    },
+    "Label2_SB_A11Y": {
+      "value": {
+        "fontFamily": "Pretendard",
+        "fontWeight": "600",
+        "lineHeight": "140%",
+        "fontSize": "16"
+      },
+      "type": "typography",
+      "description": "ㄹㅇㅂ ㄹㅇㅂ2 ㅇㅅㅂ ㅇㅅㅅ"
+    },
+    "Label2_B_A11Y": {
+      "value": {
+        "fontFamily": "Pretendard",
+        "fontWeight": "700",
+        "lineHeight": "140%",
+        "fontSize": "16"
+      },
+      "type": "typography",
+      "description": "ㄹㅇㅂ ㄹㅇㅂ2 ㅂ ㅇㅅㅅ"
+    },
+    "Label3_R_A11Y": {
+      "value": {
+        "fontFamily": "Pretendard",
+        "fontWeight": "400",
+        "lineHeight": "140%",
+        "fontSize": "15"
+      },
+      "type": "typography",
+      "description": "ㄹㅇㅂ ㄹㅇㅂ3 ㅇ ㅇㅅㅅ"
+    },
+    "Label3_SB_A11Y": {
+      "value": {
+        "fontFamily": "Pretendard",
+        "fontWeight": "600",
+        "lineHeight": "140%",
+        "fontSize": "15"
+      },
+      "type": "typography",
+      "description": "ㄹㅇㅂ ㄹㅇㅂ3 ㅇㅅㅂ ㅇㅅㅅ"
+    },
+    "Label3_B_A11Y": {
+      "value": {
+        "fontFamily": "Pretendard",
+        "fontWeight": "700",
+        "lineHeight": "140%",
+        "fontSize": "15"
+      },
+      "type": "typography",
+      "description": "ㄹㅇㅂ ㄹㅇㅂ3 ㅂ ㅇㅅㅅ"
+    },
+    "Label4_R_A11Y": {
+      "value": {
+        "fontFamily": "Pretendard",
+        "fontWeight": "400",
+        "lineHeight": "140%",
+        "fontSize": "14"
+      },
+      "type": "typography",
+      "description": "ㄹㅇㅂ ㄹㅇㅂ4 ㅇ ㅇㅅㅅ"
+    },
+    "Label4_SB_A11Y": {
+      "value": {
+        "fontFamily": "Pretendard",
+        "fontWeight": "600",
+        "lineHeight": "140%",
+        "fontSize": "14"
+      },
+      "type": "typography",
+      "description": "ㄹㅇㅂ ㄹㅇㅂ5 ㅇㅅㅂ ㅇㅅㅅ"
+    },
+    "Label4_B_A11Y": {
+      "value": {
+        "fontFamily": "Pretendard",
+        "fontWeight": "700",
+        "lineHeight": "140%",
+        "fontSize": "14"
+      },
+      "type": "typography",
+      "description": "ㄹㅇㅂ ㄹㅇㅂ4 ㅂ ㅇㅅㅅ"
+    },
+    "Label5_R_A11Y": {
+      "value": {
+        "fontFamily": "Pretendard",
+        "fontWeight": "400",
+        "lineHeight": "140%",
+        "fontSize": "12"
+      },
+      "type": "typography",
+      "description": "ㄹㅇㅂ ㄹㅇㅂ5 ㅇ ㅇㅅㅅ"
+    },
+    "Label5_SB_A11Y": {
+      "value": {
+        "fontFamily": "Pretendard",
+        "fontWeight": "600",
+        "lineHeight": "140%",
+        "fontSize": "12"
+      },
+      "type": "typography",
+      "description": "ㄹㅇㅂ ㄹㅇㅂ5 ㅇㅅㅂ ㅇㅅㅅ"
+    },
+    "Label5_B_A11Y": {
+      "value": {
+        "fontFamily": "Pretendard",
+        "fontWeight": "700",
+        "lineHeight": "140%",
+        "fontSize": "12"
+      },
+      "type": "typography",
+      "description": "ㄹㅇㅂ ㄹㅇㅂ5 ㅂ ㅇㅅㅅ"
+    },
+    "Label6_R_A11Y": {
+      "value": {
+        "fontFamily": "Pretendard",
+        "fontWeight": "400",
+        "lineHeight": "140%",
+        "fontSize": "10"
+      },
+      "type": "typography",
+      "description": "ㄹㅇㅂ ㄹㅇㅂ6 ㅇ ㅇㅅㅅ"
+    },
+    "Label6_SB_A11Y": {
+      "value": {
+        "fontFamily": "Pretendard",
+        "fontWeight": "600",
+        "lineHeight": "140%",
+        "fontSize": "10"
+      },
+      "type": "typography",
+      "description": "ㄹㅇㅂ ㄹㅇㅂ6 ㅇㅅㅂ ㅇㅅㅅ"
+    },
+    "Label6_B_A11Y": {
+      "value": {
+        "fontFamily": "Pretendard",
+        "fontWeight": "700",
+        "lineHeight": "140%",
+        "fontSize": "10"
+      },
+      "type": "typography",
+      "description": "ㄹㅇㅂ ㄹㅇㅂ6 ㅂ ㅇㅅㅅ"
+    }
+  }
+}

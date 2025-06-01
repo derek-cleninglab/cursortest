@@ -1,0 +1,765 @@
+{
+  "Text": {
+    "Primary": {
+      "value": "rgba(38, 38, 38, 1)",
+      "type": "color",
+      "description": "구)B85 / ㅌㅅㅌ.ㅍㄹㅇㅁㄹ / 일반적인 텍스트나 아이콘의 색상으로 사용됩니다. 라지타이틀과 타이틀에서는 필수로 사용되고 있습니다."
+    },
+    "PrimaryHovered": {
+      "value": "rgba(38, 38, 38, 0.9)",
+      "type": "color"
+    },
+    "PrimaryPressed": {
+      "value": "rgba(38, 38, 38, 0.8)",
+      "type": "color"
+    },
+    "Secondary": {
+      "value": "rgba(102, 102, 102, 1)",
+      "type": "color",
+      "description": "구)B60 / ㅌㅅㅌ.ㅅㅋㄷㄹ / Text.Primary 색상보다 조금 눌러진 색을 쓰고 싶을 떄 사용합니다."
+    },
+    "Tertiary": {
+      "value": "rgba(66, 75, 76, 1)",
+      "type": "color",
+      "description": "구)DarkGR /  ㅌㅅㅌ.ㅌㅌㅇㄹ / Text.Primary를 사용했을 때 배경색과 대비차가 강할 경우 사용합니다. Primary와 Secondary를 우선 사용 후 밸런스가 안맞을 경우 사용해 주세요."
+    },
+    "TertiaryHovered": {
+      "value": "rgba(66, 75, 76, 0.9)",
+      "type": "color"
+    },
+    "TertiaryPressed": {
+      "value": "rgba(66, 75, 76, 0.8)",
+      "type": "color"
+    },
+    "Support": {
+      "value": "rgba(153, 153, 153, 1)",
+      "type": "color",
+      "description": "구)B40 / ㅌㅅㅌ.ㅅㅍㅌ / 주로 부연설명에 사용되는 텍스트 및 아이콘 색상입니다."
+    },
+    "SupportHovered": {
+      "value": "rgba(153, 153, 153, 0.9)",
+      "type": "color"
+    },
+    "SupportPressed": {
+      "value": "rgba(153, 153, 153, 0.8)",
+      "type": "color"
+    },
+    "Inactive": {
+      "value": "rgba(153, 153, 153, 1)",
+      "type": "color",
+      "description": "구)B40 / ㅌㅅㅌ.ㅇㅇㅌㅂ / 액티브/인액티브 상태에서 인엑티브 텍스트에 사용합니다. 예를들어 탭바에서 비활성화된 텍스트의 경우 이 색상을 사용합니다."
+    },
+    "SupportIcon": {
+      "value": "rgba(204, 204, 204, 1)",
+      "type": "color",
+      "description": "구)B20 / ㅌㅅㅌ.ㅅㅍㅌㅇㅇㅋ / 아이콘이 힌트의 역할로 사용될 때 사용됩니다. 서포트 색상을 사용을 권하지만 화면의 밸런스가 맞지 않을경우 사용합니다. 디스에이블과 같은 색상이라 최대한 사용을 적게해야 합니다."
+    },
+    "SupportIconHovered": {
+      "value": "rgba(204, 204, 204, 0.9)",
+      "type": "color"
+    },
+    "SupportIconPressed": {
+      "value": "rgba(204, 204, 204, 0.8)",
+      "type": "color"
+    },
+    "Disabled": {
+      "value": "rgba(0, 0, 0, 0.2)",
+      "type": "color",
+      "description": "구)B20 / ㅌㅅㅌ.ㄷㅅㅇㅇㅂ / 아이콘 또는 텍스트가 Disabled 된 경우 사용합니다."
+    },
+    "DisabledOntint": {
+      "value": "rgba(255, 255, 255, 0.2)",
+      "type": "color"
+    },
+    "DisabledAccent": {
+      "value": "rgba(0, 190, 214, 0.4)",
+      "type": "color"
+    },
+    "DisabledSubtle": {
+      "value": "rgba(0, 0, 0, 0.1)",
+      "type": "color"
+    },
+    "AccentDisabled": {
+      "value": "rgba(118, 130, 131, 1)",
+      "type": "color",
+      "description": "Coolgrey 100 / ㅌㅅㅌ ㅇㅅㅌㄷㅅㅇㅇㅂㄷ / 강조된 텍스트 색상의 디스에이블에 사용합니다."
+    },
+    "OnTint": {
+      "value": "rgba(255, 255, 255, 1)",
+      "type": "color",
+      "description": "구)W / ㅌㅅㅌ.ㅇㅌㅌ / 배경에 명도가 짙은 색이 깔리지만, 테마가 바뀌어도 배경색이 변하지 않는 경우 사용합니다. 예를 들면 배경색으로 청연블루95 색상이 사용된 경우 테마가 변하더라도 청연블루95 색상은 유지되기 때문에 텍스트의 색상도 그대로 사용합니다."
+    },
+    "OnTintHovered": {
+      "value": "rgba(255, 255, 255, 0.9)",
+      "type": "color"
+    },
+    "OnTintPressed": {
+      "value": "rgba(255, 255, 255, 0.8)",
+      "type": "color"
+    },
+    "OnTintSubdued": {
+      "value": "rgba(255, 255, 255, 0.6)",
+      "type": "color",
+      "description": "ㅌㅅㅌ.ㅇㅌㅌㅅㄷㄷ / Ontint의 색상이 강하거나 Inactive 상태에 사용합니다."
+    },
+    "Accent": {
+      "value": "rgba(0, 190, 214, 1)",
+      "type": "color",
+      "description": "구)BU / ㅌㅅㅌ.ㅇㅅㅌ / 브랜드 색상 또는 강조해야하는 경우 가장 우선순위가 높은 색상입니다. 링크 또는 콜투액션에도 자주 사용됩니다."
+    },
+    "AccentHovered": {
+      "value": "rgba(0, 185, 208, 1)",
+      "type": "color"
+    },
+    "AccentPressed": {
+      "value": "rgba(0, 180, 203, 1)",
+      "type": "color"
+    },
+    "AccentSubdued": {
+      "value": "rgba(26, 124, 136, 1)",
+      "type": "color",
+      "description": "구)DeepBU / ㅌㅅㅌ.ㅇㅅㅌㅅㄷㄷ / ACCENT 색상을 썼을 때 너무 강한 경우 AccentSubdued 색상을 사용합니다. 링크 또는 콜투액션에도 자주 사용됩니다."
+    },
+    "AccentSubduedHovered": {
+      "value": "rgba(26, 124, 136, 0.9)",
+      "type": "color",
+      "description": "Interaction Color\n"
+    },
+    "AccentSubduedPressed": {
+      "value": "rgba(26, 124, 136, 0.8)",
+      "type": "color",
+      "description": "Interaction Color\n"
+    },
+    "Inverse": {
+      "value": "rgba(255, 255, 255, 1)",
+      "type": "color",
+      "description": "구)W / ㅌㅅㅌ.ㅇㅂㅅ 테마가 바뀌게 되었을 때 배경색 또한 바뀌게 되는 경우 사용됩니다. 특히 배경색이 대비차를 이용해 강조를 하고 있는 색상일 경우 사용합니다. 예를들면 토스트(스낵바)에서는 대비되는 배경 색을 쓰고 있기에 테마가 바뀌면 배경색이 변하게 됩니다. 이럴 경우 인버스 색상을 사용해 주세요."
+    },
+    "InverseHovered": {
+      "value": "rgba(255, 255, 255, 0.9)",
+      "type": "color"
+    },
+    "InversePressed": {
+      "value": "rgba(255, 255, 255, 0.8)",
+      "type": "color"
+    },
+    "InverseSubdued": {
+      "value": "rgba(255, 255, 255, 0.6)",
+      "type": "color",
+      "description": "ㅌㅅㅌ.ㅇㅂㅅㅅㄷㄷ / Inverse의 색상이 강한경우 사용해 주세요."
+    },
+    "InverseAccent": {
+      "value": "rgba(9, 158, 177, 1)",
+      "type": "color",
+      "description": "구)DeepBU2 / ㅌㅅㅌ.ㅇㅂㅅㅇㅅㅌ / 인버스가 되어야하는 색상 중 강조하는 경우에 사용됩니다. 예를들어 테마를 바꾸게 되는경우 강조색이 다른색으로 전환되어야하는 경우 사용합니다."
+    },
+    "Warning": {
+      "value": "rgba(249, 83, 83, 1)",
+      "type": "color",
+      "description": "구)R / ㅌㅅㅌ.ㅇㄴ / 경고성 문구에 사용됩니다."
+    },
+    "WarningHovered": {
+      "value": "rgba(249, 83, 83, 0.9)",
+      "type": "color"
+    },
+    "WarningPressed": {
+      "value": "rgba(249, 83, 83, 0.8)",
+      "type": "color"
+    },
+    "Error": {
+      "value": "rgba(249, 83, 83, 1)",
+      "type": "color",
+      "description": "구)R / ㅌㅅㅌ.ㅇㄹ / Error 문구 또는 아이콘에서 사용합니다."
+    },
+    "PrimaryOntint": {
+      "value": "rgba(38, 38, 38, 1)",
+      "type": "color",
+      "description": "다크모드 시 색상 고정"
+    },
+    "PrimaryOntintHovered": {
+      "value": "rgba(38, 38, 38, 0.9)",
+      "type": "color"
+    },
+    "PrimaryOntintPressed": {
+      "value": "rgba(38, 38, 38, 0.8)",
+      "type": "color"
+    }
+  },
+  "BTN": {
+    "Primary": {
+      "value": "rgba(0, 190, 214, 1)",
+      "type": "color",
+      "description": "구)BU / ㅂㅌㅇ.ㅍㄹㅇㅁㄹ / Primary 색상의 Enabled 상태입니다."
+    },
+    "PrimaryHovered": {
+      "value": "rgba(0, 185, 208, 1)",
+      "type": "color",
+      "description": "ㅂㅌㅇ.ㅍㄹㅇㅁㄹㅎㅂ / Primary 색상의 \bHovered 상태입니다."
+    },
+    "PrimaryPressed": {
+      "value": "rgba(0, 180, 203, 1)",
+      "type": "color",
+      "description": "ㅂㅌㅇ.ㅍㄹㅇㅁㄹㅍㄹㅅ / Primary 색상의 Pressed 상태입니다."
+    },
+    "LinedPrimary": {
+      "value": "rgba(0, 190, 214, 0)",
+      "type": "color"
+    },
+    "LinedPrimaryHovered": {
+      "value": "rgba(0, 190, 214, 0.02)",
+      "type": "color"
+    },
+    "LinedPrimaryPressed": {
+      "value": "rgba(0, 190, 214, 0.03)",
+      "type": "color"
+    },
+    "PrimarySubtle": {
+      "value": "rgba(232, 246, 248, 1)",
+      "type": "color"
+    },
+    "PrimarySubtleHovered": {
+      "value": "rgba(224, 242, 245, 1)",
+      "type": "color"
+    },
+    "PrimarySubtlePressed": {
+      "value": "rgba(213, 237, 240, 1)",
+      "type": "color"
+    },
+    "Secondary": {
+      "value": "rgba(240, 240, 240, 1)",
+      "type": "color",
+      "description": "구)B06 / ㅂㅌㅇ.ㅅㅋㄷㄹ / Secondary 색상의 Enabled 상태입니다."
+    },
+    "SecondaryHovered": {
+      "value": "rgba(235, 235, 235, 1)",
+      "type": "color",
+      "description": "ㅂㅌㅇ.ㅅㅋㄷㄹㅎㅂ / Secondary 색상의 Hovered 상태입니다."
+    },
+    "SecondaryPressed": {
+      "value": "rgba(230, 230, 230, 1)",
+      "type": "color",
+      "description": "ㅂㅌㅇ.ㅅㅋㄷㄹㅍㄹㅅ / Secondary 색상의 Pressed 상태입니다."
+    },
+    "SecondarySubtle": {
+      "value": "rgba(247, 247, 247, 1)",
+      "type": "color"
+    },
+    "SecondarySubtleHovered": {
+      "value": "rgba(245, 245, 245, 1)",
+      "type": "color"
+    },
+    "SecondarySubtlePressed": {
+      "value": "rgba(242, 242, 242, 1)",
+      "type": "color"
+    },
+    "LinedSecondary": {
+      "value": "rgba(0, 0, 0, 0)",
+      "type": "color",
+      "description": "ㅂㅌㅇ.ㄹㅇㄷㅅㅋㄷㄹ / Outlined Secondary 스타일 버튼의 Enabled 상태에 배경색으로 사용합니다."
+    },
+    "LinedSecondaryHovered": {
+      "value": "rgba(0, 0, 0, 0.01)",
+      "type": "color",
+      "description": "ㅂㅌㅇ.ㄹㅇㄷㅅㅋㄷㄹㅎㅂ / Outlined Secondary 스타일 버튼의 Hovered 상태에 배경색으로 사용합니다."
+    },
+    "LinedSecondaryPressed": {
+      "value": "rgba(0, 0, 0, 0.02)",
+      "type": "color",
+      "description": "ㅂㅌㅇ.ㄹㅇㄷㅅㅋㄷㄹㅍㄹㅅ / Outlined Secondary 스타일 버튼의 Pressed 상태에 배경색으로 사용합니다."
+    },
+    "Tertiary": {
+      "value": "rgba(66, 75, 76, 1)",
+      "type": "color",
+      "description": "구)DarkGR / ㅂㅌㅇ.ㅌㅌㅇㄹ / Tertiary 색상의 Enabled 상태입니다. Inverse의 성격을 띄고 있습니다."
+    },
+    "TertiaryHovered": {
+      "value": "rgba(62, 71, 72, 1)",
+      "type": "color",
+      "description": "ㅂㅌㅇ.ㅌㅌㅇㄹㅎㅂ / Tertiary 색상의 Hovered 상태입니다."
+    },
+    "TertiaryPressed": {
+      "value": "rgba(59, 68, 69, 1)",
+      "type": "color",
+      "description": "ㅂㅌㅇ.ㅌㅌㅇㄹㅍㄹㅅ / Tertiary 색상의 Pressed 상태입니다."
+    },
+    "PrimarySubdued": {
+      "value": "rgba(26, 124, 136, 1)",
+      "type": "color",
+      "description": "구)DeepBU / ㅂㅌㅇ.ㅍㄹㅇㅁㄹ ㅅㄷㄷ /PrimarySubdued 색상의 Enabled 상태입니다."
+    },
+    "PrimarySubduedHovered": {
+      "value": "rgba(28, 117, 129, 1)",
+      "type": "color",
+      "description": "ㅂㅌㅇ.ㅍㄹㅇㅁㄹ ㅅㄷㄷ / PrimarySubdued 색상의 Hovered 상태입니다."
+    },
+    "PrimarySubduedPressed": {
+      "value": "rgba(31, 111, 122, 1)",
+      "type": "color",
+      "description": "ㅂㅌㅇ.ㅍㄹㅇㅁㄹㅅㄷㄷ / PrimarySubdued 색상의 Pressed 상태입니다."
+    },
+    "Warning": {
+      "value": "rgba(249, 83, 83, 1)",
+      "type": "color",
+      "description": "구)R / ㅂㅌㅇ.ㅇㄴ / Warning 컬러의 Enabled 상태입니다."
+    },
+    "WarningHovered": {
+      "value": "rgba(244, 78, 78, 1)",
+      "type": "color",
+      "description": "ㅂㅌㅇ.ㅇㄴㅎㅂ / Warning 컬러의 Hovered 상태입니다."
+    },
+    "WarningPressed": {
+      "value": "rgba(232, 74, 74, 1)",
+      "type": "color",
+      "description": "ㅂㅌㅇ.ㅇㄴㅍㄹㅅ / Warning 컬러의 Pressed 상태입니다."
+    },
+    "LinedWarning": {
+      "value": "rgba(249, 83, 83, 0)",
+      "type": "color",
+      "description": "구)W100 / ㅂㅌㅇ.ㄹㅇㄷㅇㄴ"
+    },
+    "LinedWarningHovered": {
+      "value": "rgba(249, 83, 83, 0.01)",
+      "type": "color",
+      "description": "ㅂㅌㅇ.ㄹㅇㄷㅇㄴㅎㅂ / Outlined Warning 스타일 버튼의 Hovered 상태에 배경색으로 사용합니다."
+    },
+    "LinedWarningPressed": {
+      "value": "rgba(249, 83, 83, 0.02)",
+      "type": "color",
+      "description": "ㅂㅌㅇ.ㄹㅇㄷㅇㄴㅍㄹㅅ / Outlined Warning 스타일 버튼의 Pressed 상태에 배경색으로 사용합니다."
+    },
+    "Error": {
+      "value": "rgba(249, 83, 83, 1)",
+      "type": "color",
+      "description": "버튼의 에러 상태에서 쓰입니다.\n"
+    },
+    "ErrorHovered": {
+      "value": "rgba(244, 78, 78, 1)",
+      "type": "color",
+      "description": "버튼의 에러 Hovered 상태에서 쓰입니다.\n"
+    },
+    "ErrorPressed": {
+      "value": "rgba(232, 74, 74, 1)",
+      "type": "color",
+      "description": "버튼의 에러 Pressed 상태에서 쓰입니다.\n"
+    },
+    "OnTint": {
+      "value": "rgba(255, 255, 255, 1)",
+      "type": "color",
+      "description": "구)W100 / ㅂㅌㅇ.ㅇㅌㅌ / Tint 배경색 위에 올라가는 버튼에 사용합니다. Enabled 상태입니다."
+    },
+    "OnTintHovered": {
+      "value": "rgba(255, 255, 255, 0.95)",
+      "type": "color",
+      "description": "ㅂㅌㅇ.ㅇㅌㅌㅎㅂ / Tint 배경색 위에 올라가는 버튼에 사용합니다. Hovered 상태입니다."
+    },
+    "OnTintPressed": {
+      "value": "rgba(255, 255, 255, 0.9)",
+      "type": "color",
+      "description": "ㅂㅌㅇ.ㅇㅌㅌㅍㄹㅅㄷ / Tint 배경색 위에 올라가는 버튼에 사용합니다. Pressed 상태입니다."
+    },
+    "Inverse": {
+      "value": "rgba(255, 255, 255, 1)",
+      "type": "color",
+      "description": "ㅂㅌㅇ.ㅇㅂㅅ 버튼배경에서 인버스에 사용. 다크모드 시 색상 전환됨."
+    },
+    "InverseHovered": {
+      "value": "rgba(247, 247, 247, 1)",
+      "type": "color",
+      "description": "ㅂㅌㅇ.ㅇㅂㅅ 버튼배경에서 인버스에 사용. 다크모드 시 색상 전환됨."
+    },
+    "InversePressed": {
+      "value": "rgba(240, 240, 240, 1)",
+      "type": "color",
+      "description": "ㅂㅌㅇ.ㅇㅂㅅ 버튼배경에서 인버스에 사용. 다크모드 시 색상 전환됨."
+    },
+    "LinedOnTint": {
+      "value": "rgba(255, 255, 255, 0.0)",
+      "type": "color"
+    },
+    "LinedOnTintHovered": {
+      "value": "rgba(255, 255, 255, 0.05)",
+      "type": "color"
+    },
+    "LinedOnTintPressed": {
+      "value": "rgba(255, 255, 255, 0.1)",
+      "type": "color"
+    },
+    "OnTintSubdued": {
+      "value": "rgba(255, 255, 255, 0.4)",
+      "type": "color"
+    },
+    "OnTintSubduedHovered": {
+      "value": "rgba(255, 255, 255, 0.35)",
+      "type": "color"
+    },
+    "OnTintSubduedPressed": {
+      "value": "rgba(255, 255, 255, 0.3)",
+      "type": "color"
+    },
+    "BorderSubtle": {
+      "value": "rgba(0, 0, 0, 0.06)",
+      "type": "color"
+    },
+    "BorderSubtleHovered": {
+      "value": "rgba(0, 0, 0, 0.09)",
+      "type": "color"
+    },
+    "BorderSubtlePressed": {
+      "value": "rgba(0, 0, 0, 0.12)",
+      "type": "color"
+    },
+    "Border": {
+      "value": "rgba(0, 0, 0, 0.1)",
+      "type": "color",
+      "description": "버튼 중 진한 보더색상에 사용합니다."
+    },
+    "BorderHovered": {
+      "value": "rgba(0, 0, 0, 0.13)",
+      "type": "color",
+      "description": "버튼 중 진한 보더색상에 사용합니다."
+    },
+    "BorderPressed": {
+      "value": "rgba(0, 0, 0, 0.15)",
+      "type": "color",
+      "description": "버튼 중 진한 보더색상에 사용합니다."
+    },
+    "BorderSubdued": {
+      "value": "rgba(0, 0, 0, 0.2)",
+      "type": "color",
+      "description": "진한 보더색상에 사용합니다."
+    },
+    "BorderSubduedHovered": {
+      "value": "rgba(0, 0, 0, 0.23)",
+      "type": "color",
+      "description": "진한 보더색상에 사용합니다."
+    },
+    "BorderSubduedPressed": {
+      "value": "rgba(0, 0, 0, 0.25)",
+      "type": "color",
+      "description": "진한 보더색상에 사용합니다."
+    },
+    "Clear": {
+      "value": "rgba(0, 0, 0, 0)",
+      "type": "color"
+    },
+    "ClearHovered": {
+      "value": "rgba(0, 0, 0, 0.01)",
+      "type": "color",
+      "description": "클리어에 호버가 되었을 때 나타나는 색상입니다."
+    },
+    "ClearPressed": {
+      "value": "rgba(0, 0, 0, 0.02)",
+      "type": "color",
+      "description": "클리어에 \b프레스가 되었을 때 나타나는 색상입니다."
+    },
+    "Disabled": {
+      "value": "rgba(0, 0, 0, 0.05)",
+      "type": "color",
+      "description": "ㅂㅌㅇ.ㄷㅅㅇㅇㅂㄷ / 버튼이 Disabled인 경우 배경색으로 사용합니다."
+    },
+    "DisabledSubdued": {
+      "value": "rgba(0, 0, 0, 0.1)",
+      "type": "color",
+      "description": "ㅂㅌㅇ.ㄷㅅㅇㅇㅂㄷㅅㄷㄷ / BTN.Disabled를 사용해도 약하게 느껴질 경우 사용합니다. BTN.Disabled를 우선 사용합니다."
+    },
+    "DisabledOntint": {
+      "value": "rgba(255, 255, 255, 0.2)",
+      "type": "color",
+      "description": "ㅂㅌㅇ.ㄷㅅㅇㅇㅂㄷㅅㄷㄷ / BTN.Disabled를 사용해도 약하게 느껴질 경우 사용합니다. BTN.Disabled를 우선 사용합니다."
+    },
+    "DisabledAccent": {
+      "value": "rgba(156, 169, 171, 1)",
+      "type": "color",
+      "description": "ㅂㅌㅇ.ㄷㅅㅇㅇㅂㄷ ㅇㅅㅌ"
+    }
+  },
+  "BG": {
+    "Primary": {
+      "value": "rgba(255, 255, 255, 1)",
+      "type": "color",
+      "description": "구)W / ㅂㅈ.ㅍㄹㅇㅁㄹ / 레벨0의 가장 낮은부분에 들어가는 색상입니다."
+    },
+    "Secondary": {
+      "value": "rgba(242, 242, 242, 1)",
+      "type": "color",
+      "description": "구)B05 / ㅂㅈ.ㅅㅋㄷㄹ/ 레벨0의 가장 낮은부분에 들어가는 색상입니다. 레벨 1 이상의 뷰에서 카드뷰 또는 섹션뷰가 쓰일 경우 해당 색상을 사용합니다."
+    }
+  },
+  "Surface": {
+    "Primary": {
+      "value": "rgba(255, 255, 255, 1)",
+      "type": "color",
+      "description": "구)W / ㅅㅍㅇㅅ.ㅍㄹㅇㅁㄹ / 레벨1 이상의 모든 백그라운드 색상에 사용됩니다."
+    },
+    "Secondary": {
+      "value": "rgba(247, 247, 247, 1)",
+      "type": "color",
+      "description": "구)B03 / ㅅㅍㅇㅅ.ㅅㅋㄷㄹ / 박스형태의 배경색으로 자주 쓰입니다."
+    },
+    "Tertiary": {
+      "value": "rgba(66, 75, 76, 1)",
+      "type": "color",
+      "description": "구)DarkGR / ㅅㅍㅇㅅ.ㅌㅌㅇㄹ / 레이어에 대비차를 이용하여 강조할 때 사용합니다. 예를 들어 툴팁 배경색으로도 사용됩니다."
+    },
+    "Divider": {
+      "value": "rgba(0, 0, 0, 0.06)",
+      "type": "color",
+      "description": "구)B06 / ㅅㅍㅇㅅ.ㄷㅂㅇㄷ / 디바이더에 사용합니다."
+    },
+    "Clear": {
+      "value": "rgba(0, 0, 0, 0)",
+      "type": "color",
+      "description": "ㅅㅍㅇㅅ ㅋㄹㅇ / 배경에 아무런 색상이 없을 경우 사용합니다."
+    },
+    "Border": {
+      "value": "rgba(0, 0, 0, 0.1)",
+      "type": "color",
+      "description": "구)B10 / ㅅㅍㅇㅅ.ㅂㄷ / 주로 선 색상에 사욯합니다."
+    },
+    "Disabled": {
+      "value": "rgba(242, 242, 242, 1)",
+      "type": "color",
+      "description": "구)B05 / ㅅㅍㅇㅅ.ㄷㅅㅇㅇㅂㄷ / 디스에이블이 된 경우 사용합니다. 예를들어 매니저의 업무카드가 Disabled 상태인 경우 카드의 배경색으로 사용합니다."
+    },
+    "DimBG": {
+      "value": "rgba(0, 0, 0, 0.3)",
+      "type": "color",
+      "description": "ㅅㅍㅇㅅ.ㄷㅂㅈ / 모달이 뜨는 경우 배경의 색상을 딤처리할 때 사용합니다."
+    },
+    "Inverse": {
+      "value": "rgba(0, 0, 0, 0.9)",
+      "type": "color",
+      "description": "ㅅㅍㅇㅅ.ㅇㅂㅅ/ 배경색과 대비차를 강하게 하여 주목도를 높이기 위해 사용합니다. 예를 들어 스낵바(토스트)의 배경색상으로 사용됩니다."
+    },
+    "AccentPrimary": {
+      "value": "rgba(0, 190, 214, 1)",
+      "type": "color",
+      "description": "구)BU / ㅅㅍㅇㅅ.ㅇㅅㅌㅍㄹㅇㅁㄹ / 배경색상으로 브랜드 색상 또는 강조해야하는 경우 가장 우선순위가 높은 색상입니다. 예를 들어 고객앱의 내 예약 상세 또는 매니저앱의 스케쥴 상세에서 사용됩니다."
+    },
+    "AccentSubdued": {
+      "value": "rgba(26, 124, 136, 1)",
+      "type": "color",
+      "description": "구)DeepBU / ㅅㅍㅇㅅ.ㅇㅅㅌㅅㄷㄷ / Accent 색상이 대비차가 강한 경우 사용합니다. 예를 들어 채팅의 버블 중 청연톡에 사용합니다."
+    },
+    "AccentSubtle": {
+      "value": "rgba(232, 246, 248, 1)",
+      "type": "color",
+      "description": "구)LBU / ㅅㅍㅇㅅ.ㅇㅅㅌㅅㅌ / 일반적인 박스보다 좀 더 하이라이트를 주고 싶을 때 사용합니다."
+    },
+    "AccentDisabled": {
+      "value": "rgba(156, 169, 171, 1)",
+      "type": "color",
+      "description": "구)DimBU / ㅅㅍㅇㅅ.ㅇㅅㅌㄷㅅㅇㅇㅂㄷ / ACCENT의 Disabled 상태에 사용합니다. 예를 들어 매니저앱의 스케쥴상세에서 업무가 취소된 경우 배경색으로 사용됩니다."
+    },
+    "AccentSecondary": {
+      "value": "rgba(0, 75, 130, 1)",
+      "type": "color",
+      "description": "구)DarkBU / ㅅㅍㅇㅅ.ㅇㅅㅌㅅㅋㄷㄹ / 배경색상으로 브랜드 색상 또는 강조해야하는 경우 쓰입니다. 주색은 아니므로 청연블루 색상을 먼저 사용해보고 무드에 안맞을 경우 사용하세요."
+    },
+    "Important": {
+      "value": "rgba(255, 107, 107, 1)",
+      "type": "color",
+      "description": "구)W01 / ㅅㅍㅇㅅ.ㅇㅍㅌㅌ / 뱃지에 Accent보다 더 강조하고 싶을 때 사용합니다. Accent나 AccentSubdued를 먼저 사용하였을 경우 써주세요."
+    },
+    "ImportantSubtle": {
+      "value": "rgba(255, 235, 235, 1)",
+      "type": "color",
+      "description": "구)LR / ㅅㅍㅇㅅ.ㅇㅍㅌㅌㅅㅌ / 웜계열의 부드러운 색상을 사용하고 싶을경우 사용합니다."
+    },
+    "Warning": {
+      "value": "rgba(249, 83, 83, 1)",
+      "type": "color",
+      "description": "구)R / ㅅㅍㅇㅅ.ㅇㄴ / 경고의 의미로 사용합니다. 주로 뱃지같은 작은 영역에 사용됩니다."
+    },
+    "Unread": {
+      "value": "rgba(255, 251, 239, 1)",
+      "type": "color",
+      "description": "구)LY / ㅅㅍㅇㅅ.ㅇㄹㄷ / 읽지 않은 카드 또는 섹션에 사용하는 색상입니다."
+    }
+  },
+  "Tag": {
+    "focusDim": {
+      "value": "rgba(0, 0, 0, 0.6)",
+      "type": "color",
+      "description": "ㅌㄱ.ㅍㅋㅅㄷ / 카메라 등의 미디어를 띄울 때 특정부분에만 디머를 사용해야할 경우 해당 색상을 사용합니다."
+    },
+    "HouseWork": {
+      "value": "rgba(66, 151, 212, 1)",
+      "type": "color",
+      "description": "구)C03 / ㅌㄱ.ㅌㄱ / 매니저앱에서만 사용됩니다. 가정청소를 구분하기 위한 색상입니다."
+    },
+    "OfficeWork": {
+      "value": "rgba(243, 114, 184, 1)",
+      "type": "color",
+      "description": "구)W02 / ㅌㄱ.ㅇㅍㅅㅇㅋ / 매니저앱에서만 사용됩니다. 사무실 청소에서만 사용되는 색상입니다."
+    },
+    "CareWork": {
+      "value": "rgba(30, 179, 154, 1)",
+      "type": "color",
+      "description": "청연케어에 사용되는 색상입니다."
+    },
+    "Peak": {
+      "value": "rgba(243, 114, 184, 1)",
+      "type": "color",
+      "description": "성수기, 비싼날의 의미입니다."
+    },
+    "StoreSale": {
+      "value": "rgba(249, 83, 83, 1)",
+      "type": "color",
+      "description": "구)R / ㅌㄱ.ㅅㅌㅇㅅㅇ / 스토어 제품의 세일에서만 사용되는 색상입니다."
+    },
+    "BookingHoliday": {
+      "value": "rgba(249, 83, 83, 1)",
+      "type": "color",
+      "description": "구)R / ㅌㄱ.ㅂㅋㅎㄹㄷㅇ / 달력에서 공휴일에만 사용합니다."
+    },
+    "BookingHolidayDisabled": {
+      "value": "rgba(249, 83, 83, 0.2)",
+      "type": "color",
+      "description": "구)R / ㅌㄱ.ㅂㅋㅎㄹㄷㅇ / 달력에서 공휴일에만 사용합니다."
+    },
+    "ReviewBadge": {
+      "value": "rgba(255, 191, 0, 1)",
+      "type": "color",
+      "description": "ㅌㄱ.ㄹㅂㅂㅈ / 리뷰뱃지에 사용되는 노란색입니다."
+    },
+    "BalanceInactive": {
+      "value": "rgba(174, 233, 241, 1)",
+      "type": "color",
+      "description": "ㅌㄱ.ㅂㄹㅅㅇㅇㅌㅂ / 매니저 정산내역에서 챠트 바의 인엑티브 영역에 사용합니다."
+    },
+    "BadgeText": {
+      "value": "rgba(0, 75, 130, 1)",
+      "type": "color"
+    },
+    "GoneDay": {
+      "value": "rgba(186, 198, 200, 1)",
+      "type": "color",
+      "description": "달력에서 지나간 날짜 위의 텍스트컬러로 사용됩니다. ㅌㄱ.ㄱㄷㅇ"
+    }
+  },
+  "Indicator": {
+    "ActiveAccent": {
+      "value": "rgba(0, 190, 214, 1)",
+      "type": "color",
+      "description": "구)BU / ㅇㄷㅋㅇㅌ.ㅇㅌㅌㅇㅅㅌ / Active상태의 강조하고 싶은곳에 사용합니다."
+    },
+    "ActiveAccentSubtle": {
+      "value": "rgba(232, 246, 248, 1)",
+      "type": "color",
+      "description": "구)LBU / ㅇㄷㅋㅇㅌ.ㅇㅌㅂㅇㅅㅌㅅㅌ / Active상태의 BG색상으로 사용합니다. Primary와 Secondary를 우선 사용해 주세요."
+    },
+    "ActivePrimary": {
+      "value": "rgba(66, 75, 76, 1)",
+      "type": "color",
+      "description": "구)DarkGR / ㅇㄷㅋㅇㅌ.ㅇㅌㅂㅍㄹㅇㅁㄹ / Active상태의 BG색상으로 사용합니다."
+    },
+    "ActiveSecondary": {
+      "value": "rgba(38, 38, 38, 1)",
+      "type": "color",
+      "description": "구)B85 / ㅇㄷㅋㅇㅌ.ㅇㅌㅂㅅㅋㄷㄹ / Active상태의 BG색상으로 사용합니다. Primary를 우선 사용해 주세요."
+    },
+    "ActiveSecondarySubdued": {
+      "value": "rgba(0, 0, 0, 0.6)",
+      "type": "color",
+      "description": "구)B06 / ㅇㄷㅋㅇㅌ.ㅇㅌㅂㅅㅋㄷㄹㅅㄷㄷ / ActiveSecondary의 약한 색상으로 사용합니다."
+    },
+    "Warning": {
+      "value": "rgba(249, 83, 83, 1)",
+      "type": "color",
+      "description": "구)R / ㅇㄷㅋㅇㅌ.ㅇㄴ / Active상태의 워닝색상으로 사용합니다."
+    },
+    "WarningDisabled": {
+      "value": "rgba(255, 162, 162, 1)",
+      "type": "color",
+      "description": "ㅇㄷㅋㅇㅌ.ㅇㄴㄷㅅㅇㅇㅂ / Disabled상태의 워닝색상으로 사용합니다."
+    },
+    "ActiveDisabled": {
+      "value": "rgba(156, 169, 171, 1)",
+      "type": "color",
+      "description": "구)DimBU / ㅇㄷㅋㅇㅌ.ㅇㅌㅂㄷㅅㅇㅇㅂㄷ / Active상태의 디스에이블에 사용합니다."
+    },
+    "ActiveOnTint": {
+      "value": "rgba(255, 255, 255, 1)",
+      "type": "color",
+      "description": "구)W100 / ㅇㄷㅋㅇㅌ.ㅇㅌㅂㅇㅌㅌ / 배경색이 명도가 짙은 경우 Active상태의 BG색상으로 사용합니다."
+    },
+    "InactivePrimary": {
+      "value": "rgba(247, 247, 247, 1)",
+      "type": "color",
+      "description": "구)B03 / ㅇㄷㅋㅇㅌ.ㅇㅇㅌㅂㅍㄹㅇㅁㄹ / Inactive상태의 배경색으로 사용됩니다."
+    },
+    "InactiveSecondary": {
+      "value": "rgba(0, 0, 0, 0.06)",
+      "type": "color",
+      "description": "구)B06 / ㅇㄷㅋㅇㅌ.ㅇㅇㅌㅂㅅㅋㄷㄹ / Inactive상태이며, 닷인디케이터, 프로그레스바에서 사용됩니다."
+    },
+    "InactiveTertiary": {
+      "value": "rgba(0, 0, 0, 0.1)",
+      "type": "color",
+      "description": "구)B10 ㅇㄷㅋㅇㅌ.ㅇㅇㅌㅂㅌㅌㅇㄹ / Inactive상태에 사용합니다. 주로 선에 사용됩니다."
+    },
+    "InactiveOnTint": {
+      "value": "rgba(255, 255, 255, 0.4)",
+      "type": "color",
+      "description": "구)W40 / ㅇㄷㅋㅇㅌ.ㅇㅇㅌㅂㅇㅌㅌ / 배경의 명도가 짙은 경우 Inactive상태에 사용됩니다."
+    },
+    "InactiveQuaternary": {
+      "value": "rgba(204, 204, 204, 1)",
+      "type": "color",
+      "description": "구)B20 / ㅇㄷㅋㅇㅌ.ㅇㅇㅌㅂㅋㅌㄴㄹ / 체크박스, 라디오박스 등의 Inactive 상태에서 사용합니다."
+    },
+    "ActiveAccentDisabled": {
+      "value": "rgba(116, 220, 233, 1)",
+      "type": "color",
+      "description": "ㅇㄷㅋㅇㅌ.ㅇㅌㅂㅇㅅㅌㄷㅅㅇㅇㅂ / ActiveAccent상태에서 컬러를 유지하면서 Disabled 하고 싶을때,Toggle Disabled에 사용됨"
+    },
+    "InactiveDisabled": {
+      "value": "rgba(0, 0, 0, 0.05)",
+      "type": "color",
+      "description": "구B05 / ㅇㄷㅋㅇㅌ.ㅇㅇㅌㅂㄷㅅㅇㅇㅂㄷ / 디스에이블이 된 경우 사용합니다. 예를들어 토글이 언셀렉티드 상태에서 디스에이블 되었을때"
+    },
+    "SelectorBG": {
+      "value": "rgba(255, 255, 255, 1)",
+      "type": "color",
+      "description": "구)W100 / ㅇㄷㅋㅇㅌ.ㅅㄹㅌㅂㅈ /  체크박스나 라디오버튼의 배경 색상으로 사용합니다."
+    },
+    "SelectoFG": {
+      "value": "rgba(255, 255, 255, 1)",
+      "type": "color",
+      "description": "구)W100 / ㅇㄷㅋㅇㅌ.ㅅㄹㅌㅇㅍㅈ /  체크박스나 라디오버튼의 포그라운드 색상으로 사용합니다."
+    }
+  },
+  "Field": {
+    "BG": {
+      "value": "rgba(247, 247, 247, 1)",
+      "type": "color",
+      "description": "구)B03 / ㅍㄷ.ㅂㅈ / Filled Text Field의 배경색으로 쓰입니다."
+    },
+    "DisabledBG": {
+      "value": "rgba(241, 243, 243, 1)",
+      "type": "color",
+      "description": "Coolgrey 10 / ㅍㄷ ㄷㅅㅇㅇㅂㄷ ㅂㅈ / 필드배경 중 디스에이블 성격을 가지고 있을 경우 사용됩니다."
+    },
+    "Lined": {
+      "value": "rgba(204, 204, 204, 1)",
+      "type": "color",
+      "description": "구)B20 / ㅍㄷ.ㄹㅇㄷ / Field의 Rested 또는 Enabled 상태에 사용합니다."
+    },
+    "Active": {
+      "value": "rgba(0, 190, 214, 1)",
+      "type": "color",
+      "description": "구)BU / ㅍㄷ.ㅇㅌㅂ / Field의 Activate와 커서에 사용됩니다."
+    },
+    "Error": {
+      "value": "rgba(249, 83, 83, 1)",
+      "type": "color",
+      "description": "구)R / ㅍㄷ.ㅇㄹ / Field의 Error 상태에 사용합니다."
+    },
+    "LinedDisabled": {
+      "value": "rgba(242, 242, 242, 1)",
+      "type": "color",
+      "description": "구)B05 / ㅍㄷ.ㄹㅇㄷㄷㅅㅇㅇㅂㄷ / Disabled의 Bottom Border에 사용합니다."
+    }
+  }
+}

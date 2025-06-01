@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fortune Cards</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            width: 100%;
+            min-height: 100vh;
+            display: flex;
+            justify-content: center;
+            background-color: #ffffff;
+            font-family: 'Inter', sans-serif;
+        }
+
+        .view {
+            width: 100%;
+            min-height: 100vh;
+            max-width: 480px;
+            display: flex;
+            flex-direction: column;
+            background-color: #ffffff;
+        }
+
+        .navigation-bar {
+            width: 100%;
+            height: 47px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            background-color: rgba(255, 89, 0, 0.2);
+            position: sticky;
+            top: 0;
+        }
+
+        .nav-text {
+            color: #FF5A00;
+            font-size: 12px;
+            font-weight: 400;
+            line-height: 14.52px;
+        }
+
+        .body {
+            flex: 1;
+            width: 100%;
+            background-color: rgba(0, 255, 123, 0.1);
+            padding: 20px;
+            overflow-y: auto;
+        }
+
+        .cards-grid {
+            display: grid;
+            grid-template-columns: repeat(2, 1fr);
+            gap: 20px;
+            padding-bottom: 20px;
+        }
+
+        .fortune-card {
+            width: 100%;
+            aspect-ratio: 165/239;
+            background-color: #00BF5F;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+
+        .card-text {
+            color: #ffffff;
+            font-size: 12px;
+            font-weight: 400;
+            line-height: 14.52px;
+        }
+
+        @media (max-width: 480px) {
+            .body {
+                padding: 15px;
+            }
+            
+            .cards-grid {
+                gap: 15px;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="view">
+        <nav class="navigation-bar">
+            <span class="nav-text">네비게이션 바</span>
+        </nav>
+        <main class="body">
+            <div class="cards-grid">
+                <div class="fortune-card">
+                    <span class="card-text">운세카드 1</span>
+                </div>
+                <div class="fortune-card">
+                    <span class="card-text">운세카드 2</span>
+                </div>
+                <div class="fortune-card">
+                    <span class="card-text">운세카드 3</span>
+                </div>
+                <div class="fortune-card">
+                    <span class="card-text">운세카드 4</span>
+                </div>
+                <div class="fortune-card">
+                    <span class="card-text">운세카드 5</span>
+                </div>
+                <div class="fortune-card">
+                    <span class="card-text">운세카드 6</span>
+                </div>
+            </div>
+        </main>
+    </div>
+</body>
+</html> 

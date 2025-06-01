@@ -1,0 +1,238 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Landing Page</title>
+    <link rel="stylesheet" as="style" crossorigin href="https://cdn.jsdelivr.net/gh/orioncactus/pretendard@v1.3.9/dist/web/static/pretendard.min.css" />
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: 'Pretendard', sans-serif;
+        }
+
+        body {
+            width: 100%;
+            min-height: 100vh;
+            background-color: #004B82;
+        }
+
+        .container {
+            width: 100%;
+            max-width: 480px;
+            margin: 0 auto;
+            position: relative;
+        }
+
+        .image-section {
+            width: 100%;
+        }
+
+        .image-section img {
+            width: 100%;
+            height: auto;
+            display: block;
+            max-width: 480px;
+            margin: 0 auto;
+        }
+
+        .image-placeholder {
+            width: 100%;
+            height: 300px;
+            background-color: #1a3c5e;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            color: white;
+            font-size: 16px;
+            margin: 0;
+        }
+
+        .cta-section {
+            width: 100%;
+            padding: 0 20px;
+            position: relative;
+            margin-top: -100px;
+        }
+
+        .cta-button {
+            width: 100%;
+            height: 60px;
+            background-color: #FDD1AB;
+            border-radius: 8px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            gap: 8px;
+            cursor: pointer;
+            border: none;
+            font-weight: 600;
+            font-size: 18px;
+            color: #242424;
+        }
+
+        .notice-section {
+            background-color: #424B4C;
+            padding: 40px 20px;
+            margin-top: 40px;
+            color: #ffffff;
+        }
+
+        .notice-title {
+            font-size: 24px;
+            font-weight: 700;
+            margin-bottom: 20px;
+        }
+
+        .notice-content {
+            font-size: 14px;
+            line-height: 1.6;
+        }
+
+        .notice-item {
+            margin-bottom: 12px;
+            padding-left: 16px;
+            position: relative;
+            font-weight: 300;
+        }
+
+        .notice-item::before {
+            content: "•";
+            position: absolute;
+            left: 0;
+        }
+
+        .popup {
+            display: none;
+            position: fixed;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            width: 90%;
+            max-width: 400px;
+            background: white;
+            padding: 20px;
+            border-radius: 12px;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+            z-index: 1000;
+        }
+
+        .popup-content {
+            text-align: center;
+        }
+
+        .popup-button {
+            margin-top: 20px;
+            padding: 10px 20px;
+            background-color: #FDD1AB;
+            border: none;
+            border-radius: 8px;
+            cursor: pointer;
+            font-weight: 600;
+        }
+
+        .overlay {
+            display: none;
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background: rgba(0, 0, 0, 0.5);
+            z-index: 999;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="image-section">
+            <div class="image-placeholder" style="background-color: #004B82; height: auto; margin: 0;">
+                <img src="./assets/image01.png" alt="청소연구소 × AMORE MALL" style="width: 100%; height: auto; display: block;">
+            </div>
+            <div class="image-placeholder" style="background-color: #004B82; height: auto; margin: 0;">
+                <img src="./assets/image02.png" alt="청소연구소 이벤트 혜택" style="width: 100%; height: auto; display: block;">
+            </div>
+            <div class="image-placeholder" style="background-color: #004B82; height: auto; margin: 0;">
+                <img src="./assets/image03.png" alt="이벤트 상세 설명" style="width: 100%; height: auto; display: block;">
+            </div>
+            <div class="image-placeholder" style="background-color: #004B82; height: auto; margin: 0;">
+                <img src="./assets/image04.png" alt="이벤트 참여 방법" style="width: 100%; height: auto; display: block;">
+            </div>
+        </div>
+        <div class="cta-section">
+            <button class="cta-button" onclick="showPopup()">
+                <span>지금 바로 혜택 받아가기</span>
+            </button>
+        </div>
+        <div class="notice-section">
+            <h2 class="notice-title">이벤트 유의사항</h2>
+            <div class="notice-content" id="noticeContent">
+                <!-- 유의사항 내용은 JavaScript로 동적 관리 -->
+            </div>
+        </div>
+    </div>
+
+    <!-- 팝업 -->
+    <div class="overlay" id="overlay" onclick="hidePopup()"></div>
+    <div class="popup" id="popup">
+        <div class="popup-content">
+            <h3>쿠폰 다운로드</h3>
+            <p>쿠폰을 다운로드 하시겠습니까?</p>
+            <button class="popup-button" onclick="downloadCoupon()">다운로드</button>
+            <button class="popup-button" onclick="hidePopup()">닫기</button>
+        </div>
+    </div>
+
+    <script>
+        // 유의사항 데이터
+        const noticeItems = [
+            "본 이벤트는 카카오뱅크와 청소연구소가 함께합니다.",
+            "회사의 서비스 운영정책에 따라 특정한 경우 이벤트 참여가 제한될 수 있습니다.",
+            "본 이벤트는 제휴사 및 당사 사정으로 예고 없이 내용이 변경되거나 종료될 수 있습니다.",
+            "이벤트 내 쿠폰은 타인에게 양도 또는 재판매가 불가합니다.",
+            "이벤트 내 쿠폰은 재사용, 유효기간 연장 및 다른 쿠폰과 중복사용이 불가합니다.",
+            "일부 지역에서는 청소연구소 서비스 이용이 불가할 수 있습니다.",
+            "쿠폰은 청소연구소 앱에서 발급 가능하며 이벤트 당 1회 참여 가능합니다.",
+            "이벤트 내 쿠폰의 사용 기한은 발급 후 14일입니다.",
+            "가사 청소 재주문 쿠폰은 청소연구소 이용 경험 유무에 상관없이 발급됩니다.",
+            "가사 청소 첫이용 쿠폰은 청소연구소 이용 경험이 없는 고객님께 발급됩니다.",
+            "해당 제휴 이벤트는 아모레몰 APP 설치 및 회원가입/로그인 후 참여 가능합니다.",
+            "아모레몰 쿠폰은 이벤트 기간 내 ID당 1회 다운로드 가능합니다.",
+            "각 쿠폰은 사용조건이 상이하며 쿠폰함에서 확인 가능합니다.",
+            "일부 브랜드 및 상품은 할인 제외됩니다.",
+            "첫구매 쿠폰 혜택과 중복 사용 가능하나 타행사 쿠폰과는 동시 사용 불가할 수 있습니다."
+        ];
+
+        // 유의사항 렌더링
+        function renderNoticeItems() {
+            const noticeContent = document.getElementById('noticeContent');
+            noticeContent.innerHTML = noticeItems.map(item => 
+                `<div class="notice-item">${item}</div>`
+            ).join('');
+        }
+
+        // 팝업 표시
+        function showPopup() {
+            document.getElementById('popup').style.display = 'block';
+            document.getElementById('overlay').style.display = 'block';
+        }
+
+        // 팝업 숨기기
+        function hidePopup() {
+            document.getElementById('popup').style.display = 'none';
+            document.getElementById('overlay').style.display = 'none';
+        }
+
+        // 쿠폰 다운로드
+        function downloadCoupon() {
+            alert('쿠폰이 다운로드되었습니다!');
+            hidePopup();
+        }
+
+        // 초기화
+        renderNoticeItems();
+    </script>
+</body>
+</html> 

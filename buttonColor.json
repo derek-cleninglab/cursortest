@@ -1,0 +1,380 @@
+{
+  "primary": {
+    "backgroundColor": {
+      "value": "{ixBG.bgPrimary}",
+      "type": "color"
+    },
+    "iconColor": {
+      "value": "{ixFG.fgOntint}",
+      "type": "color"
+    },
+    "labelColor": {
+      "value": "{ixFG.fgOntint}",
+      "type": "color"
+    },
+    "borderColor": {
+      "value": "{ixBorder.borderClear}",
+      "type": "color"
+    }
+  },
+  "primarySubtle": {
+    "backgroundColor": {
+      "value": "{ixBG.bgPrimarySubtle}",
+      "type": "color"
+    },
+    "iconColor": {
+      "value": "{ixFG.fgAccent}",
+      "type": "color"
+    },
+    "labelColor": {
+      "value": "{ixFG.fgAccent}",
+      "type": "color"
+    },
+    "borderColor": {
+      "value": "{ixBorder.borderClear}",
+      "type": "color"
+    }
+  },
+  "primarySubtleFgDim": {
+    "backgroundColor": {
+      "value": "{ixBG.bgPrimarySubtle}",
+      "type": "color"
+    },
+    "iconColor": {
+      "value": "{ixFG.fgAccentSubdued}",
+      "type": "color"
+    },
+    "labelColor": {
+      "value": "{ixFG.fgAccentSubdued}",
+      "type": "color"
+    },
+    "borderColor": {
+      "value": "{ixBorder.borderClear}",
+      "type": "color"
+    }
+  },
+  "primarySubdued": {
+    "backgroundColor": {
+      "value": "{ixBG.bgPrimarySubdued}",
+      "type": "color"
+    },
+    "iconColor": {
+      "value": "{ixFG.fgOntint}",
+      "type": "color"
+    },
+    "labelColor": {
+      "value": "{ixFG.fgOntint}",
+      "type": "color"
+    },
+    "borderColor": {
+      "value": "{ixBorder.borderClear}",
+      "type": "color"
+    }
+  },
+  "outlinedPrimary": {
+    "backgroundColor": {
+      "value": "{ixBG.bgOutlinedPrimary}",
+      "type": "color"
+    },
+    "iconColor": {
+      "value": "{ixFG.fgAccent}",
+      "type": "color"
+    },
+    "labelColor": {
+      "value": "{ixFG.fgAccent}",
+      "type": "color"
+    },
+    "borderColor": {
+      "value": "{ixBorder.borderPrimary}",
+      "type": "color"
+    }
+  },
+  "secondary": {
+    "backgroundColor": {
+      "value": "{ixBG.bgSecondary}",
+      "type": "color"
+    },
+    "iconColor": {
+      "value": "{ixFG.fgPrimary}",
+      "type": "color"
+    },
+    "labelColor": {
+      "value": "{ixFG.fgPrimary}",
+      "type": "color"
+    },
+    "borderColor": {
+      "value": "{ixBorder.borderClear}",
+      "type": "color"
+    }
+  },
+  "secondaryIcWarning": {
+    "backgroundColor": {
+      "value": "{ixBG.bgSecondary}",
+      "type": "color"
+    },
+    "iconColor": {
+      "value": "{ixFG.fgWarning}",
+      "type": "color"
+    },
+    "labelColor": {
+      "value": "{ixFG.fgPrimary}",
+      "type": "color"
+    },
+    "borderColor": {
+      "value": "{ixBorder.borderClear}",
+      "type": "color"
+    }
+  },
+  "secondaryIcSupportIcon": {
+    "backgroundColor": {
+      "value": "{ixBG.bgSecondary}",
+      "type": "color"
+    },
+    "iconColor": {
+      "value": "{ixFG.fgSupportIcon}",
+      "type": "color"
+    },
+    "labelColor": {
+      "value": "{ixFG.fgPrimary}",
+      "type": "color"
+    },
+    "borderColor": {
+      "value": "{ixBorder.borderClear}",
+      "type": "color"
+    }
+  },
+  "secondarySubtle": {
+    "backgroundColor": {
+      "value": "{ixBG.bgSecondarySubtle}",
+      "type": "color"
+    },
+    "iconColor": {
+      "value": "{ixFG.fgPrimary}",
+      "type": "color"
+    },
+    "labelColor": {
+      "value": "{ixFG.fgPrimary}",
+      "type": "color"
+    },
+    "borderColor": {
+      "value": "{ixBorder.borderClear}",
+      "type": "color"
+    }
+  },
+  "outlinedSecondary": {
+    "backgroundColor": {
+      "value": "{ixBG.bgOutlinedSecondary}",
+      "type": "color"
+    },
+    "iconColor": {
+      "value": "{ixFG.fgPrimary}",
+      "type": "color"
+    },
+    "labelColor": {
+      "value": "{ixFG.fgPrimary}",
+      "type": "color"
+    },
+    "borderColor": {
+      "value": "{ixBorder.borderSecondary}",
+      "type": "color"
+    }
+  },
+  "outlinedSecondaryIcWarning": {
+    "backgroundColor": {
+      "value": "{ixBG.bgOutlinedSecondary}",
+      "type": "color"
+    },
+    "iconColor": {
+      "value": "{ixFG.fgWarning}",
+      "type": "color"
+    },
+    "labelColor": {
+      "value": "{ixFG.fgPrimary}",
+      "type": "color"
+    },
+    "borderColor": {
+      "value": "{ixBorder.borderSecondary}",
+      "type": "color"
+    }
+  },
+  "outlinedSecondaryIcSupportIcon": {
+    "backgroundColor": {
+      "value": "{ixBG.bgOutlinedSecondary}",
+      "type": "color"
+    },
+    "iconColor": {
+      "value": "{ixFG.fgSupportIcon}",
+      "type": "color"
+    },
+    "labelColor": {
+      "value": "{ixFG.fgPrimary}",
+      "type": "color"
+    },
+    "borderColor": {
+      "value": "{ixBorder.borderSecondary}",
+      "type": "color"
+    }
+  },
+  "outlinedSecondaryFgAccent": {
+    "backgroundColor": {
+      "value": "{ixBG.bgOutlinedSecondary}",
+      "type": "color"
+    },
+    "iconColor": {
+      "value": "{ixFG.fgAccent}",
+      "type": "color"
+    },
+    "labelColor": {
+      "value": "{ixFG.fgAccent}",
+      "type": "color"
+    },
+    "borderColor": {
+      "value": "{ixBorder.borderSecondary}",
+      "type": "color"
+    }
+  },
+  "tertiary": {
+    "backgroundColor": {
+      "value": "{ixBG.bgTertiary}",
+      "type": "color"
+    },
+    "iconColor": {
+      "value": "{ixFG.fgInverse}",
+      "type": "color"
+    },
+    "labelColor": {
+      "value": "{ixFG.fgInverse}",
+      "type": "color"
+    },
+    "borderColor": {
+      "value": "{ixBorder.borderClear}",
+      "type": "color"
+    }
+  },
+  "warning": {
+    "backgroundColor": {
+      "value": "{ixBG.bgWarning}",
+      "type": "color"
+    },
+    "iconColor": {
+      "value": "{ixFG.fgOntint}",
+      "type": "color"
+    },
+    "labelColor": {
+      "value": "{ixFG.fgOntint}",
+      "type": "color"
+    },
+    "borderColor": {
+      "value": "{ixBorder.borderClear}",
+      "type": "color"
+    }
+  },
+  "outlinedWarning": {
+    "backgroundColor": {
+      "value": "{ixBG.bgOutlinedWarning}",
+      "type": "color"
+    },
+    "iconColor": {
+      "value": "{ixFG.fgWarning}",
+      "type": "color"
+    },
+    "labelColor": {
+      "value": "{ixFG.fgWarning}",
+      "type": "color"
+    },
+    "borderColor": {
+      "value": "{ixBorder.borderWarning}",
+      "type": "color"
+    }
+  },
+  "ontint": {
+    "backgroundColor": {
+      "value": "{ixBG.bgOntint}",
+      "type": "color"
+    },
+    "iconColor": {
+      "value": "{ixFG.fgPrimaryOntint}",
+      "type": "color"
+    },
+    "labelColor": {
+      "value": "{ixFG.fgPrimaryOntint}",
+      "type": "color"
+    },
+    "borderColor": {
+      "value": "{ixBorder.borderClear}",
+      "type": "color"
+    }
+  },
+  "ontintFgAccent": {
+    "backgroundColor": {
+      "value": "{ixBG.bgOntint}",
+      "type": "color"
+    },
+    "iconColor": {
+      "value": "{ixFG.fgAccentOntint}",
+      "type": "color"
+    },
+    "labelColor": {
+      "value": "{ixFG.fgAccentOntint}",
+      "type": "color"
+    },
+    "borderColor": {
+      "value": "{ixBorder.borderClear}",
+      "type": "color"
+    }
+  },
+  "ontintSubduedFgAccent": {
+    "backgroundColor": {
+      "value": "{ixBG.bgOntintSubdued}",
+      "type": "color"
+    },
+    "iconColor": {
+      "value": "{ixFG.fgAccent}",
+      "type": "color"
+    },
+    "labelColor": {
+      "value": "{ixFG.fgAccent}",
+      "type": "color"
+    },
+    "borderColor": {
+      "value": "{ixBorder.borderClear}",
+      "type": "color"
+    }
+  },
+  "outlinedOntint": {
+    "backgroundColor": {
+      "value": "{ixBG.bgOutlinedOntint}",
+      "type": "color"
+    },
+    "iconColor": {
+      "value": "{ixFG.fgOutlinedOntint}",
+      "type": "color"
+    },
+    "labelColor": {
+      "value": "{ixFG.fgOutlinedOntint}",
+      "type": "color"
+    },
+    "borderColor": {
+      "value": "{ixBorder.borderOntintSubdued}",
+      "type": "color"
+    }
+  },
+  "inverse": {
+    "backgroundColor": {
+      "value": "{ixBG.bgInverse}",
+      "type": "color"
+    },
+    "iconColor": {
+      "value": "{ixFG.fgPrimary}",
+      "type": "color"
+    },
+    "labelColor": {
+      "value": "{ixFG.fgPrimary}",
+      "type": "color"
+    },
+    "borderColor": {
+      "value": "{ixBorder.borderClear}",
+      "type": "color"
+    }
+  }
+}
