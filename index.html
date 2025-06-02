@@ -1,13 +1,442 @@
-<!doctype html>
-<html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <link rel="icon" type="image/svg+xml" href="/vite.svg" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Vite + React + TS</title>
-  </head>
-  <body>
-    <div id="root"></div>
-    <script type="module" src="/src/main.tsx"></script>
-  </body>
-</html>
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>알림센터</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/orioncactus/pretendard/dist/web/static/pretendard.css">
+    <style>
+        :root {
+            /* Semantic Colors */
+            --color-text-primary: rgba(38, 38, 38, 1);
+            --color-text-secondary: rgba(102, 102, 102, 1);
+            --color-text-tertiary: rgba(153, 153, 153, 1);
+            --color-text-warning: rgba(240, 68, 56, 1);
+            --color-background-primary: rgba(255, 255, 255, 1);
+            --color-background-secondary: rgba(247, 247, 247, 1);
+            --color-border: rgba(242, 242, 242, 1);
+            --color-unread: rgba(255, 251, 239, 1);
+            --color-divider: rgba(0, 0, 0, 0.06);
+        }
+
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: 'Pretendard', sans-serif;
+        }
+
+        body {
+            background-color: var(--color-background-secondary);
+            line-height: 140%;
+        }
+
+        .container {
+            max-width: 480px;
+            margin: 0 auto;
+            background-color: var(--color-background-primary);
+            min-height: 100vh;
+        }
+
+        .header {
+            position: fixed;
+            top: 0;
+            width: 100%;
+            max-width: 480px;
+            height: 44px;
+            background: var(--color-background-primary);
+            display: flex;
+            align-items: center;
+            padding: 0 16px;
+            z-index: 100;
+        }
+
+        .back-button {
+            width: 24px;
+            height: 24px;
+            background: url('assets/back-arrow.svg') no-repeat center;
+            border: none;
+            cursor: pointer;
+            transition: opacity 0.2s;
+        }
+
+        .back-button:hover {
+            opacity: 0.7;
+        }
+
+        .large-title {
+            padding: 4px 24px 24px;
+            height: auto;
+            display: flex;
+            align-items: flex-start;
+            background: var(--color-background-primary);
+        }
+
+        .large-title h1 {
+            font-size: 25px;
+            font-weight: 700;
+            color: var(--color-text-primary);
+            line-height: 35px;
+        }
+
+        .content {
+            padding-top: 44px;
+        }
+
+        .notification-list {
+            list-style: none;
+        }
+
+        .notification-item {
+            padding: 24px;
+            cursor: pointer;
+            transition: background-color 0.2s;
+        }
+
+        .list-divider {
+            height: 1px;
+            background-color: var(--color-divider);
+            margin: 0 24px;
+        }
+
+        .notification-item:hover {
+            background-color: var(--color-background-secondary);
+        }
+
+        .notification-item.unread {
+            background-color: var(--color-unread);
+        }
+
+        .notification-wrapper {
+            display: grid;
+            grid-template-columns: 24px 1fr auto;
+            grid-template-rows: auto auto;
+            gap: 12px 12px;
+        }
+
+        .notification-icon {
+            width: 24px;
+            height: 24px;
+            flex-shrink: 0;
+            display: flex;
+            align-items: center;
+            justify-content: flex-start;
+            grid-column: 1;
+            grid-row: 1;
+        }
+
+        .notification-icon img {
+            width: 24px;
+            height: 24px;
+        }
+
+        .notification-title {
+            font-size: 15px;
+            font-weight: 700;
+            color: var(--color-text-primary);
+            line-height: 140%;
+            grid-column: 2;
+            grid-row: 1;
+            word-break: keep-all;
+            white-space: pre-wrap;
+            align-self: center;
+        }
+
+        .notification-item.error .notification-title {
+            color: var(--color-text-warning);
+        }
+
+        .notification-item.error .notification-icon img {
+            filter: invert(36%) sepia(71%) saturate(2619%) hue-rotate(340deg) brightness(94%) contrast(98%);
+        }
+
+        .notification-time {
+            font-size: 12px;
+            color: var(--color-text-tertiary);
+            line-height: 140%;
+            grid-column: 3;
+            grid-row: 1;
+            white-space: nowrap;
+            align-self: center;
+            text-align: right;
+        }
+
+        .notification-time span {
+            text-align: right;
+        }
+
+        .history-toggle {
+            width: 24px;
+            height: 24px;
+            border: none;
+            background: none;
+            padding: 0;
+            cursor: pointer;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            flex-shrink: 0;
+        }
+
+        .history-toggle img {
+            width: 16px;
+            height: 16px;
+            opacity: 0.4;
+            transition: opacity 0.2s;
+        }
+
+        .history-toggle:hover img {
+            opacity: 0.8;
+        }
+
+        .notification-item.has-history .history-toggle {
+            display: flex;
+        }
+
+        .notification-item:not(.has-history) .history-toggle {
+            display: none;
+        }
+
+        .notification-text {
+            font-size: 16px;
+            color: var(--color-text-primary);
+            line-height: 140%;
+            grid-column: 2;
+            grid-row: 2;
+        }
+
+        /* When there's no image, text spans both columns */
+        .notification-wrapper:not(:has(.notification-image)) .notification-text {
+            grid-column: 2 / -1;
+        }
+
+        .notification-image {
+            width: 46px;
+            height: 46px;
+            border-radius: 8px;
+            background-color: var(--color-background-secondary);
+            flex-shrink: 0;
+            overflow: hidden;
+            grid-column: 3;
+            grid-row: 2;
+        }
+
+        .notification-image img {
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+        }
+
+        .empty-state {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            height: calc(100vh - 83px); /* 44px header + 39px large title */
+            text-align: center;
+            color: var(--color-text-tertiary);
+        }
+
+        .empty-state img {
+            width: 48px;
+            height: 48px;
+            margin-bottom: 8px;
+        }
+
+        .empty-state p {
+            font-size: 14px;
+            line-height: 140%;
+            font-weight: 400;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <header class="header">
+            <button class="back-button" aria-label="뒤로가기"></button>
+        </header>
+        <main class="content">
+            <div class="large-title">
+                <h1>알림센터</h1>
+            </div>
+            <ul class="notification-list">
+                <li class="notification-item has-history">
+                    <div class="notification-wrapper">
+                        <div class="notification-icon">
+                            <img src="assets/delivery-icon.svg" alt="배송">
+                        </div>
+                        <h2 class="notification-title">주문하신 상품이 배송 시작되었습니다.</h2>
+                        <div class="notification-time">
+                            <span>방금 전</span>
+                        </div>
+                        <p class="notification-text">주문번호 1234567890의 상품이 배송 시작되었습니다. 배송 조회를 통해 실시간 배송 현황을 확인하실 수 있습니다.</p>
+                        <div class="notification-image">
+                            <img src="https://picsum.photos/46/46?random=1" alt="상품 이미지">
+                        </div>
+                    </div>
+                </li>
+                <li class="list-divider"></li>
+                <li class="notification-item unread">
+                    <div class="notification-wrapper">
+                        <div class="notification-icon">
+                            <img src="assets/coupon-icon.svg" alt="쿠폰">
+                        </div>
+                        <h2 class="notification-title">신규 회원 전용 쿠폰이 발급되었습니다.</h2>
+                        <p class="notification-time">1시간 전</p>
+                        <p class="notification-text">첫 구매 시 사용 가능한 20% 할인 쿠폰이 발급되었습니다. 마이페이지에서 확인해보세요.</p>
+                    </div>
+                </li>
+                <li class="list-divider"></li>
+                <li class="notification-item">
+                    <div class="notification-wrapper">
+                        <div class="notification-icon">
+                            <img src="assets/point-icon.svg" alt="포인트">
+                        </div>
+                        <h2 class="notification-title">포인트가 적립되었습니다.</h2>
+                        <p class="notification-time">어제</p>
+                        <p class="notification-text">주문번호 1234567890 상품 구매 확정으로 1,000P가 적립되었습니다.</p>
+                        <div class="notification-image">
+                            <img src="https://picsum.photos/46/46?random=2" alt="포인트 이미지">
+                        </div>
+                    </div>
+                </li>
+                <li class="list-divider"></li>
+                <li class="notification-item">
+                    <div class="notification-wrapper">
+                        <div class="notification-icon">
+                            <img src="assets/delivery-icon.svg" alt="배송">
+                        </div>
+                        <h2 class="notification-title">새로운 이벤트가 등록되었습니다.</h2>
+                        <p class="notification-time">2일 전</p>
+                        <p class="notification-text">봄맞이 대청소 이벤트에 참여하고 특별 할인 혜택을 받아보세요.</p>
+                        <div class="notification-image">
+                            <img src="https://picsum.photos/46/46?random=3" alt="이벤트 이미지">
+                        </div>
+                    </div>
+                </li>
+                <li class="list-divider"></li>
+                <li class="notification-item">
+                    <div class="notification-wrapper">
+                        <div class="notification-icon">
+                            <img src="assets/point-icon.svg" alt="포인트">
+                        </div>
+                        <h2 class="notification-title">친구 초대 포인트가 지급되었습니다.</h2>
+                        <p class="notification-time">3일 전</p>
+                        <p class="notification-text">친구 초대 이벤트 참여로 2,000P가 지급되었습니다.</p>
+                    </div>
+                </li>
+                <li class="list-divider"></li>
+                <li class="notification-item">
+                    <div class="notification-wrapper">
+                        <div class="notification-icon">
+                            <img src="assets/coupon-icon.svg" alt="쿠폰">
+                        </div>
+                        <h2 class="notification-title">생일 축하 쿠폰이 발급되었습니다.</h2>
+                        <p class="notification-time">4일 전</p>
+                        <p class="notification-text">생일을 맞이하여 30% 할인 쿠폰이 발급되었습니다. 이번 달 말일까지 사용 가능합니다.</p>
+                        <div class="notification-image">
+                            <img src="https://picsum.photos/46/46?random=4" alt="생일 쿠폰 이미지">
+                        </div>
+                    </div>
+                </li>
+                <li class="list-divider"></li>
+                <li class="notification-item">
+                    <div class="notification-wrapper">
+                        <div class="notification-icon">
+                            <img src="assets/delivery-icon.svg" alt="배송">
+                        </div>
+                        <h2 class="notification-title">상품이 배송 완료되었습니다.</h2>
+                        <p class="notification-time">5일 전</p>
+                        <p class="notification-text">주문하신 상품이 배송 완료되었습니다. 상품 리뷰를 작성하고 포인트를 받아보세요.</p>
+                    </div>
+                </li>
+                <li class="list-divider"></li>
+                <li class="notification-item">
+                    <div class="notification-wrapper">
+                        <div class="notification-icon">
+                            <img src="assets/point-icon.svg" alt="포인트">
+                        </div>
+                        <h2 class="notification-title">첫 구매 리뷰 포인트가 지급되었습니다.</h2>
+                        <p class="notification-time">6일 전</p>
+                        <p class="notification-text">첫 구매 상품 리뷰 작성으로 500P가 지급되었습니다.</p>
+                        <div class="notification-image">
+                            <img src="https://picsum.photos/46/46?random=5" alt="리뷰 이미지">
+                        </div>
+                    </div>
+                </li>
+                <li class="list-divider"></li>
+                <li class="notification-item">
+                    <div class="notification-wrapper">
+                        <div class="notification-icon">
+                            <img src="assets/coupon-icon.svg" alt="쿠폰">
+                        </div>
+                        <h2 class="notification-title">여름 맞이 특별 쿠폰이 발급되었습니다.</h2>
+                        <p class="notification-time">7일 전</p>
+                        <p class="notification-text">여름 시즌을 맞이하여 모든 여름 상품 25% 할인 쿠폰이 발급되었습니다.</p>
+                        <div class="notification-image">
+                            <img src="https://picsum.photos/46/46?random=6" alt="여름 쿠폰 이미지">
+                        </div>
+                    </div>
+                </li>
+                <li class="list-divider"></li>
+                <li class="notification-item error">
+                    <div class="notification-wrapper">
+                        <div class="notification-icon">
+                            <img src="assets/delivery-icon.svg" alt="배송">
+                        </div>
+                        <h2 class="notification-title">배송이 지연되고 있습니다.</h2>
+                        <p class="notification-time">1일 전</p>
+                        <p class="notification-text">주문번호 1234567890의 상품 배송이 기상 악화로 인해 지연되고 있습니다. 빠른 시일 내에 배송될 수 있도록 하겠습니다.</p>
+                        <div class="notification-image">
+                            <img src="https://picsum.photos/46/46?random=7" alt="배송 지연 이미지">
+                        </div>
+                    </div>
+                </li>
+            </ul>
+            <div class="empty-state" style="display: none;">
+                <img src="assets/empty-icon.svg" alt="알림 없음">
+                <p>알림이 없습니다.</p>
+            </div>
+        </main>
+    </div>
+    <script>
+        document.addEventListener('DOMContentLoaded', function() {
+            // 뒤로가기 버튼 기능
+            const backButton = document.querySelector('.back-button');
+            backButton.addEventListener('click', function() {
+                window.history.back();
+            });
+
+            // 알림 아이템 클릭 이벤트
+            const notificationItems = document.querySelectorAll('.notification-item');
+            notificationItems.forEach(item => {
+                item.addEventListener('click', function() {
+                    // 읽음 표시 제거
+                    this.classList.remove('unread');
+                    
+                    // 여기에 알림 상세 페이지로 이동하는 로직을 추가할 수 있습니다.
+                    // const notificationId = this.dataset.id;
+                    // window.location.href = `/notification/${notificationId}`;
+                });
+            });
+
+            // 알림 목록이 비어있는지 확인
+            function checkEmptyState() {
+                const notificationList = document.querySelector('.notification-list');
+                const emptyState = document.querySelector('.empty-state');
+                
+                if (notificationList.children.length === 0) {
+                    notificationList.style.display = 'none';
+                    emptyState.style.display = 'flex';
+                } else {
+                    notificationList.style.display = 'block';
+                    emptyState.style.display = 'none';
+                }
+            }
+
+            // 초기 empty state 체크
+            checkEmptyState();
+        });
+    </script>
+</body>
+</html> 
